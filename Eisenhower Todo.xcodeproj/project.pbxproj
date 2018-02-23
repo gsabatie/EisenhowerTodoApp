@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C06A7AE420401DFF00E11F51 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06A7AE520401DFF00E11F51 /* GoogleToolboxForMac.framework */; };
+		C0D716282040188B00D52A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D716272040188B00D52A57 /* AppDelegate.swift */; };
+		C0D7162A2040188B00D52A57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D716292040188B00D52A57 /* ViewController.swift */; };
+		C0D7162D2040188B00D52A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D7162B2040188B00D52A57 /* Main.storyboard */; };
+		C0D7162F2040188B00D52A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D7162E2040188B00D52A57 /* Assets.xcassets */; };
+		C0D716322040188B00D52A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D716302040188B00D52A57 /* LaunchScreen.storyboard */; };
+		C0D7163D2040188B00D52A57 /* Eisenhower_TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D7163C2040188B00D52A57 /* Eisenhower_TodoTests.swift */; };
+		C0D716482040188B00D52A57 /* Eisenhower_TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D716472040188B00D52A57 /* Eisenhower_TodoUITests.swift */; };
+		C0D71656204019B500D52A57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0D71655204019B500D52A57 /* GoogleService-Info.plist */; };
+		F584F7E00AC23CBCCF097EFC /* Pods_Eisenhower_TodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404221DFE059E49062715C44 /* Pods_Eisenhower_TodoTests.framework */; };
+		F6B7D89FFE1E48934ADE564C /* Pods_Eisenhower_TodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4D4CCB5E2D9B856F81C011 /* Pods_Eisenhower_TodoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0D716392040188B00D52A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0D7161C2040188B00D52A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D716232040188B00D52A57;
+			remoteInfo = "Eisenhower Todo";
+		};
+		C0D716442040188B00D52A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0D7161C2040188B00D52A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0D716232040188B00D52A57;
+			remoteInfo = "Eisenhower Todo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AE1AA1691BA6775C2D655ED /* Pods-Eisenhower TodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoTests/Pods-Eisenhower TodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AA1D1124E3CB068AD6FBF16 /* Pods-Eisenhower TodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoTests/Pods-Eisenhower TodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		404221DFE059E49062715C44 /* Pods_Eisenhower_TodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eisenhower_TodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A62A02A822FDFDDF1F685E /* Pods-Eisenhower Todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower Todo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo.debug.xcconfig"; sourceTree = "<group>"; };
+		7C66033BC91ACDA9C460F90B /* Pods-Eisenhower Todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower Todo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo.release.xcconfig"; sourceTree = "<group>"; };
+		ABD4DAB54ED96838F98BB0DF /* Pods_Eisenhower_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eisenhower_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06A7AE520401DFF00E11F51 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D716242040188B00D52A57 /* Eisenhower Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eisenhower Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D716272040188B00D52A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0D716292040188B00D52A57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0D7162C2040188B00D52A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0D7162E2040188B00D52A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0D716312040188B00D52A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0D716332040188B00D52A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D716382040188B00D52A57 /* Eisenhower TodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eisenhower TodoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D7163C2040188B00D52A57 /* Eisenhower_TodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eisenhower_TodoTests.swift; sourceTree = "<group>"; };
+		C0D7163E2040188B00D52A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D716432040188B00D52A57 /* Eisenhower TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eisenhower TodoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D716472040188B00D52A57 /* Eisenhower_TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eisenhower_TodoUITests.swift; sourceTree = "<group>"; };
+		C0D716492040188B00D52A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0D71655204019B500D52A57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5B25207D977EDE02F9737E3 /* Pods-Eisenhower TodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E553AE6EF741E5E27867CB2B /* Pods-Eisenhower TodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA4D4CCB5E2D9B856F81C011 /* Pods_Eisenhower_TodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eisenhower_TodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0D716212040188B00D52A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06A7AE420401DFF00E11F51 /* GoogleToolboxForMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D716352040188B00D52A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F584F7E00AC23CBCCF097EFC /* Pods_Eisenhower_TodoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D716402040188B00D52A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B7D89FFE1E48934ADE564C /* Pods_Eisenhower_TodoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CFCCB8ABC30696ED9D25CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06A7AE520401DFF00E11F51 /* GoogleToolboxForMac.framework */,
+				ABD4DAB54ED96838F98BB0DF /* Pods_Eisenhower_Todo.framework */,
+				404221DFE059E49062715C44 /* Pods_Eisenhower_TodoTests.framework */,
+				EA4D4CCB5E2D9B856F81C011 /* Pods_Eisenhower_TodoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31E71698638EF82B339F10F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53A62A02A822FDFDDF1F685E /* Pods-Eisenhower Todo.debug.xcconfig */,
+				7C66033BC91ACDA9C460F90B /* Pods-Eisenhower Todo.release.xcconfig */,
+				0AE1AA1691BA6775C2D655ED /* Pods-Eisenhower TodoTests.debug.xcconfig */,
+				3AA1D1124E3CB068AD6FBF16 /* Pods-Eisenhower TodoTests.release.xcconfig */,
+				E553AE6EF741E5E27867CB2B /* Pods-Eisenhower TodoUITests.debug.xcconfig */,
+				C5B25207D977EDE02F9737E3 /* Pods-Eisenhower TodoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0D7161B2040188B00D52A57 = {
+			isa = PBXGroup;
+			children = (
+				C0D716262040188B00D52A57 /* Eisenhower Todo */,
+				C0D7163B2040188B00D52A57 /* Eisenhower TodoTests */,
+				C0D716462040188B00D52A57 /* Eisenhower TodoUITests */,
+				C0D716252040188B00D52A57 /* Products */,
+				31E71698638EF82B339F10F4 /* Pods */,
+				1CFCCB8ABC30696ED9D25CDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0D716252040188B00D52A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D716242040188B00D52A57 /* Eisenhower Todo.app */,
+				C0D716382040188B00D52A57 /* Eisenhower TodoTests.xctest */,
+				C0D716432040188B00D52A57 /* Eisenhower TodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0D716262040188B00D52A57 /* Eisenhower Todo */ = {
+			isa = PBXGroup;
+			children = (
+				C0D716272040188B00D52A57 /* AppDelegate.swift */,
+				C0D716292040188B00D52A57 /* ViewController.swift */,
+				C0D7162B2040188B00D52A57 /* Main.storyboard */,
+				C0D7162E2040188B00D52A57 /* Assets.xcassets */,
+				C0D716302040188B00D52A57 /* LaunchScreen.storyboard */,
+				C0D71655204019B500D52A57 /* GoogleService-Info.plist */,
+				C0D716332040188B00D52A57 /* Info.plist */,
+			);
+			path = "Eisenhower Todo";
+			sourceTree = "<group>";
+		};
+		C0D7163B2040188B00D52A57 /* Eisenhower TodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0D7163C2040188B00D52A57 /* Eisenhower_TodoTests.swift */,
+				C0D7163E2040188B00D52A57 /* Info.plist */,
+			);
+			path = "Eisenhower TodoTests";
+			sourceTree = "<group>";
+		};
+		C0D716462040188B00D52A57 /* Eisenhower TodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0D716472040188B00D52A57 /* Eisenhower_TodoUITests.swift */,
+				C0D716492040188B00D52A57 /* Info.plist */,
+			);
+			path = "Eisenhower TodoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0D716232040188B00D52A57 /* Eisenhower Todo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D7164C2040188B00D52A57 /* Build configuration list for PBXNativeTarget "Eisenhower Todo" */;
+			buildPhases = (
+				01C61A86C5802B83177864BF /* [CP] Check Pods Manifest.lock */,
+				C0D716202040188B00D52A57 /* Sources */,
+				C0D716212040188B00D52A57 /* Frameworks */,
+				C0D716222040188B00D52A57 /* Resources */,
+				662195CCD40CC010C7604E1F /* [CP] Embed Pods Frameworks */,
+				D367DBA7D83F6CA04C003EF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eisenhower Todo";
+			productName = "Eisenhower Todo";
+			productReference = C0D716242040188B00D52A57 /* Eisenhower Todo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0D716372040188B00D52A57 /* Eisenhower TodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D7164F2040188B00D52A57 /* Build configuration list for PBXNativeTarget "Eisenhower TodoTests" */;
+			buildPhases = (
+				56A652DE0310DBD9D6757CE1 /* [CP] Check Pods Manifest.lock */,
+				C0D716342040188B00D52A57 /* Sources */,
+				C0D716352040188B00D52A57 /* Frameworks */,
+				C0D716362040188B00D52A57 /* Resources */,
+				31CD4AD3BB55D6A67C29F7F1 /* [CP] Embed Pods Frameworks */,
+				E87B0CE449946FA7D270D85F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D7163A2040188B00D52A57 /* PBXTargetDependency */,
+			);
+			name = "Eisenhower TodoTests";
+			productName = "Eisenhower TodoTests";
+			productReference = C0D716382040188B00D52A57 /* Eisenhower TodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0D716422040188B00D52A57 /* Eisenhower TodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D716522040188B00D52A57 /* Build configuration list for PBXNativeTarget "Eisenhower TodoUITests" */;
+			buildPhases = (
+				BFCED7C6DC74F367330B1543 /* [CP] Check Pods Manifest.lock */,
+				C0D7163F2040188B00D52A57 /* Sources */,
+				C0D716402040188B00D52A57 /* Frameworks */,
+				C0D716412040188B00D52A57 /* Resources */,
+				D3B29530E78E83805419E19B /* [CP] Embed Pods Frameworks */,
+				BE6331B753B83AFE1C45EC09 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D716452040188B00D52A57 /* PBXTargetDependency */,
+			);
+			name = "Eisenhower TodoUITests";
+			productName = "Eisenhower TodoUITests";
+			productReference = C0D716432040188B00D52A57 /* Eisenhower TodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0D7161C2040188B00D52A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Guillaume Sabatie";
+				TargetAttributes = {
+					C0D716232040188B00D52A57 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C0D716372040188B00D52A57 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0D716232040188B00D52A57;
+					};
+					C0D716422040188B00D52A57 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0D716232040188B00D52A57;
+					};
+				};
+			};
+			buildConfigurationList = C0D7161F2040188B00D52A57 /* Build configuration list for PBXProject "Eisenhower Todo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0D7161B2040188B00D52A57;
+			productRefGroup = C0D716252040188B00D52A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0D716232040188B00D52A57 /* Eisenhower Todo */,
+				C0D716372040188B00D52A57 /* Eisenhower TodoTests */,
+				C0D716422040188B00D52A57 /* Eisenhower TodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0D716222040188B00D52A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D716322040188B00D52A57 /* LaunchScreen.storyboard in Resources */,
+				C0D71656204019B500D52A57 /* GoogleService-Info.plist in Resources */,
+				C0D7162F2040188B00D52A57 /* Assets.xcassets in Resources */,
+				C0D7162D2040188B00D52A57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D716362040188B00D52A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D716412040188B00D52A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C61A86C5802B83177864BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eisenhower Todo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31CD4AD3BB55D6A67C29F7F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower TodoTests/Pods-Eisenhower TodoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56A652DE0310DBD9D6757CE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eisenhower TodoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662195CCD40CC010C7604E1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE6331B753B83AFE1C45EC09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFCED7C6DC74F367330B1543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eisenhower TodoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D367DBA7D83F6CA04C003EF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B29530E78E83805419E19B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87B0CE449946FA7D270D85F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower TodoTests/Pods-Eisenhower TodoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0D716202040188B00D52A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D7162A2040188B00D52A57 /* ViewController.swift in Sources */,
+				C0D716282040188B00D52A57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D716342040188B00D52A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D7163D2040188B00D52A57 /* Eisenhower_TodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D7163F2040188B00D52A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D716482040188B00D52A57 /* Eisenhower_TodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0D7163A2040188B00D52A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D716232040188B00D52A57 /* Eisenhower Todo */;
+			targetProxy = C0D716392040188B00D52A57 /* PBXContainerItemProxy */;
+		};
+		C0D716452040188B00D52A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0D716232040188B00D52A57 /* Eisenhower Todo */;
+			targetProxy = C0D716442040188B00D52A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0D7162B2040188B00D52A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D7162C2040188B00D52A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0D716302040188B00D52A57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D716312040188B00D52A57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0D7164A2040188B00D52A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0D7164B2040188B00D52A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0D7164D2040188B00D52A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A62A02A822FDFDDF1F685E /* Pods-Eisenhower Todo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGQV3YPMH6;
+				INFOPLIST_FILE = "Eisenhower Todo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillaumeSabatie.Eisenhower-Todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0D7164E2040188B00D52A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C66033BC91ACDA9C460F90B /* Pods-Eisenhower Todo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGQV3YPMH6;
+				INFOPLIST_FILE = "Eisenhower Todo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillaumeSabatie.Eisenhower-Todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0D716502040188B00D52A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE1AA1691BA6775C2D655ED /* Pods-Eisenhower TodoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGQV3YPMH6;
+				INFOPLIST_FILE = "Eisenhower TodoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillaumeSabatie.Eisenhower-TodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eisenhower Todo.app/Eisenhower Todo";
+			};
+			name = Debug;
+		};
+		C0D716512040188B00D52A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA1D1124E3CB068AD6FBF16 /* Pods-Eisenhower TodoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGQV3YPMH6;
+				INFOPLIST_FILE = "Eisenhower TodoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillaumeSabatie.Eisenhower-TodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eisenhower Todo.app/Eisenhower Todo";
+			};
+			name = Release;
+		};
+		C0D716532040188B00D52A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E553AE6EF741E5E27867CB2B /* Pods-Eisenhower TodoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGQV3YPMH6;
+				INFOPLIST_FILE = "Eisenhower TodoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillaumeSabatie.Eisenhower-TodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eisenhower Todo";
+			};
+			name = Debug;
+		};
+		C0D716542040188B00D52A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B25207D977EDE02F9737E3 /* Pods-Eisenhower TodoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGQV3YPMH6;
+				INFOPLIST_FILE = "Eisenhower TodoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillaumeSabatie.Eisenhower-TodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Eisenhower Todo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0D7161F2040188B00D52A57 /* Build configuration list for PBXProject "Eisenhower Todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D7164A2040188B00D52A57 /* Debug */,
+				C0D7164B2040188B00D52A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D7164C2040188B00D52A57 /* Build configuration list for PBXNativeTarget "Eisenhower Todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D7164D2040188B00D52A57 /* Debug */,
+				C0D7164E2040188B00D52A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D7164F2040188B00D52A57 /* Build configuration list for PBXNativeTarget "Eisenhower TodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D716502040188B00D52A57 /* Debug */,
+				C0D716512040188B00D52A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D716522040188B00D52A57 /* Build configuration list for PBXNativeTarget "Eisenhower TodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D716532040188B00D52A57 /* Debug */,
+				C0D716542040188B00D52A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0D7161C2040188B00D52A57 /* Project object */;
+}
