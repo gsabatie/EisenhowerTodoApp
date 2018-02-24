@@ -1,0 +1,21 @@
+### Headers settings
+company: EiseinhowerApp team
+
+### Xcode project settings
+project_name: EisenhowerTodoApp
+xcodeproj_path: Eisenhower Todo.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: Eisenhower Todo
+
+### Tests generation settings section
+# The tests target name
+test_target: Eisenhower TodoTests
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: swifty_viper}
