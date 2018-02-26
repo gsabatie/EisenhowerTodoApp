@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C6335D16DBE5B72DA6DAE2 /* TaskDashboardViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03F90B344235E15064E5DF /* TaskDashboardViewOutput.swift */; };
+		0D30139B0D65F48019643FDC /* TaskDashboardViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB26793A538FC7F6CF6C0E73 /* TaskDashboardViewInput.swift */; };
+		137000ECBC1A69F269A73047 /* TaskDashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7002ABBFEA49D4FCA040A3AF /* TaskDashboardInteractor.swift */; };
+		1CFCDE7B47236877AED10A54 /* TaskDashboardModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46905326FF1D283FCD0E1378 /* TaskDashboardModuleInput.swift */; };
+		255CD0DD895D8E8677C13D0C /* TaskDashboardPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146F99E51207442702B2020D /* TaskDashboardPresenterTests.swift */; };
+		3191E181AC0A5D2A1BEF977E /* TaskDashboardInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F498CA06ED67C0F7763DDC /* TaskDashboardInteractorOutput.swift */; };
+		3527335D500E3554B8488DFB /* TaskDashboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D90160FEE0C34F5D7C3DF9 /* TaskDashboardConfigurator.swift */; };
+		4361027F1D67D9A65250101F /* TaskDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD89D670248B4318F874EDB /* TaskDashboardViewController.swift */; };
+		5281C0684C6C39F918DBD121 /* TaskDashboardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE902BEE41DE03349F07F8D /* TaskDashboardViewTests.swift */; };
+		596E8C77ED2818881CDD71DC /* TaskDashboardInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947F7ACFF6A2C2E20BB3BD /* TaskDashboardInteractorTests.swift */; };
+		666237EA9A715A29EB6C9241 /* TaskDashboardRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC13F215790E8127A80993 /* TaskDashboardRouterInput.swift */; };
+		77F44403B9B6A76900F595E0 /* TaskDashboardInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FF3E020AB6CA83663ABC3 /* TaskDashboardInitializer.swift */; };
+		916A0206CF0D98F77B5DD179 /* TaskDashboardConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D0C3EDBADC16E5EE34FB0 /* TaskDashboardConfiguratorTests.swift */; };
+		B11767E4984416E6467AB409 /* TaskDashboardInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E85D3289D9BD8ECEEEBB276 /* TaskDashboardInteractorInput.swift */; };
+		B6B72DEDE908ECFBB7CA1497 /* TaskDashboardRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B71B71818D3CA15E39883 /* TaskDashboardRouterTests.swift */; };
+		C00E021A1CE10BBB3DCC6E51 /* TaskDashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93300641C8B9711EFBA61192 /* TaskDashboardRouter.swift */; };
 		C06A7AE420401DFF00E11F51 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06A7AE520401DFF00E11F51 /* GoogleToolboxForMac.framework */; };
+		C0A0BCD220436F8B00BBFC14 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0BCD120436F8B00BBFC14 /* Task.swift */; };
+		C0A0BCD420447FF500BBFC14 /* TaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0BCD320447FF500BBFC14 /* TaskCollectionViewCell.swift */; };
 		C0D716282040188B00D52A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D716272040188B00D52A57 /* AppDelegate.swift */; };
-		C0D7162A2040188B00D52A57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D716292040188B00D52A57 /* ViewController.swift */; };
 		C0D7162D2040188B00D52A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D7162B2040188B00D52A57 /* Main.storyboard */; };
 		C0D7162F2040188B00D52A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D7162E2040188B00D52A57 /* Assets.xcassets */; };
 		C0D716322040188B00D52A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D716302040188B00D52A57 /* LaunchScreen.storyboard */; };
 		C0D7163D2040188B00D52A57 /* Eisenhower_TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D7163C2040188B00D52A57 /* Eisenhower_TodoTests.swift */; };
 		C0D716482040188B00D52A57 /* Eisenhower_TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D716472040188B00D52A57 /* Eisenhower_TodoUITests.swift */; };
 		C0D71656204019B500D52A57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0D71655204019B500D52A57 /* GoogleService-Info.plist */; };
+		CF1DEB269499FE4ACBD8CA35 /* TaskDashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1A11DFA7CFE02B4F0DD4F /* TaskDashboardPresenter.swift */; };
 		F584F7E00AC23CBCCF097EFC /* Pods_Eisenhower_TodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404221DFE059E49062715C44 /* Pods_Eisenhower_TodoTests.framework */; };
 		F6B7D89FFE1E48934ADE564C /* Pods_Eisenhower_TodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4D4CCB5E2D9B856F81C011 /* Pods_Eisenhower_TodoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -38,16 +56,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05D90160FEE0C34F5D7C3DF9 /* TaskDashboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardConfigurator.swift; sourceTree = "<group>"; };
 		0AE1AA1691BA6775C2D655ED /* Pods-Eisenhower TodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoTests/Pods-Eisenhower TodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FE902BEE41DE03349F07F8D /* TaskDashboardViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardViewTests.swift; sourceTree = "<group>"; };
+		146F99E51207442702B2020D /* TaskDashboardPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardPresenterTests.swift; sourceTree = "<group>"; };
+		181FF3E020AB6CA83663ABC3 /* TaskDashboardInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInitializer.swift; sourceTree = "<group>"; };
+		2D03F90B344235E15064E5DF /* TaskDashboardViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardViewOutput.swift; sourceTree = "<group>"; };
 		3AA1D1124E3CB068AD6FBF16 /* Pods-Eisenhower TodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoTests/Pods-Eisenhower TodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BE1A11DFA7CFE02B4F0DD4F /* TaskDashboardPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardPresenter.swift; sourceTree = "<group>"; };
 		404221DFE059E49062715C44 /* Pods_Eisenhower_TodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eisenhower_TodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46905326FF1D283FCD0E1378 /* TaskDashboardModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardModuleInput.swift; sourceTree = "<group>"; };
+		4E85D3289D9BD8ECEEEBB276 /* TaskDashboardInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInteractorInput.swift; sourceTree = "<group>"; };
 		53A62A02A822FDFDDF1F685E /* Pods-Eisenhower Todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower Todo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo.debug.xcconfig"; sourceTree = "<group>"; };
+		7002ABBFEA49D4FCA040A3AF /* TaskDashboardInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInteractor.swift; sourceTree = "<group>"; };
+		712D0C3EDBADC16E5EE34FB0 /* TaskDashboardConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardConfiguratorTests.swift; sourceTree = "<group>"; };
 		7C66033BC91ACDA9C460F90B /* Pods-Eisenhower Todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower Todo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo.release.xcconfig"; sourceTree = "<group>"; };
+		926B71B71818D3CA15E39883 /* TaskDashboardRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardRouterTests.swift; sourceTree = "<group>"; };
+		93300641C8B9711EFBA61192 /* TaskDashboardRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardRouter.swift; sourceTree = "<group>"; };
+		9CDC13F215790E8127A80993 /* TaskDashboardRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardRouterInput.swift; sourceTree = "<group>"; };
 		ABD4DAB54ED96838F98BB0DF /* Pods_Eisenhower_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eisenhower_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06A7AE520401DFF00E11F51 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A0BCD120436F8B00BBFC14 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C0A0BCD320447FF500BBFC14 /* TaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCollectionViewCell.swift; sourceTree = "<group>"; };
 		C0D716242040188B00D52A57 /* Eisenhower Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eisenhower Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D716272040188B00D52A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0D716292040188B00D52A57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0D7162C2040188B00D52A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0D7162E2040188B00D52A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0D716312040188B00D52A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,8 +92,12 @@
 		C0D716492040188B00D52A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0D71655204019B500D52A57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C5B25207D977EDE02F9737E3 /* Pods-Eisenhower TodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2947F7ACFF6A2C2E20BB3BD /* TaskDashboardInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInteractorTests.swift; sourceTree = "<group>"; };
 		E553AE6EF741E5E27867CB2B /* Pods-Eisenhower TodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7F498CA06ED67C0F7763DDC /* TaskDashboardInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInteractorOutput.swift; sourceTree = "<group>"; };
 		EA4D4CCB5E2D9B856F81C011 /* Pods_Eisenhower_TodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eisenhower_TodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB26793A538FC7F6CF6C0E73 /* TaskDashboardViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardViewInput.swift; sourceTree = "<group>"; };
+		EDD89D670248B4318F874EDB /* TaskDashboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +128,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E04C9E5BE3912A6616F8FCA /* TaskDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				EC31B7AF81CABA7D242CD826 /* Configurator */,
+				717E5B4EB9C0C37BC5087994 /* View */,
+				2190503E9439AED697567E3D /* Interactor */,
+				2C386F64B5B1F8A9D075F93D /* Presenter */,
+				0E8FD8D269153F8AC3A57E3F /* Router */,
+			);
+			path = TaskDashboard;
+			sourceTree = "<group>";
+		};
+		0E8FD8D269153F8AC3A57E3F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				926B71B71818D3CA15E39883 /* TaskDashboardRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		117907D13088F0075B683332 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				46905326FF1D283FCD0E1378 /* TaskDashboardModuleInput.swift */,
+				3BE1A11DFA7CFE02B4F0DD4F /* TaskDashboardPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		18D4EBE4EAB61A7381B96BD2 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				05D90160FEE0C34F5D7C3DF9 /* TaskDashboardConfigurator.swift */,
+				181FF3E020AB6CA83663ABC3 /* TaskDashboardInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 		1CFCCB8ABC30696ED9D25CDD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +175,32 @@
 				EA4D4CCB5E2D9B856F81C011 /* Pods_Eisenhower_TodoUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2190503E9439AED697567E3D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D2947F7ACFF6A2C2E20BB3BD /* TaskDashboardInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2C386F64B5B1F8A9D075F93D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				146F99E51207442702B2020D /* TaskDashboardPresenterTests.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2C54717EB929F645DE0961F1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4E85D3289D9BD8ECEEEBB276 /* TaskDashboardInteractorInput.swift */,
+				E7F498CA06ED67C0F7763DDC /* TaskDashboardInteractorOutput.swift */,
+				7002ABBFEA49D4FCA040A3AF /* TaskDashboardInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		31E71698638EF82B339F10F4 /* Pods */ = {
@@ -114,6 +214,54 @@
 				C5B25207D977EDE02F9737E3 /* Pods-Eisenhower TodoUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3AFBF132550AF8A0E3B0D6A7 /* TaskDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				57DDC935F9F3AE56C19ECB47 /* View */,
+				117907D13088F0075B683332 /* Presenter */,
+				2C54717EB929F645DE0961F1 /* Interactor */,
+				62566466C9360A3E8C46D8A2 /* Router */,
+				18D4EBE4EAB61A7381B96BD2 /* Configurator */,
+			);
+			path = TaskDashboard;
+			sourceTree = "<group>";
+		};
+		57DDC935F9F3AE56C19ECB47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB26793A538FC7F6CF6C0E73 /* TaskDashboardViewInput.swift */,
+				2D03F90B344235E15064E5DF /* TaskDashboardViewOutput.swift */,
+				EDD89D670248B4318F874EDB /* TaskDashboardViewController.swift */,
+				C0A0BCD320447FF500BBFC14 /* TaskCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62566466C9360A3E8C46D8A2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9CDC13F215790E8127A80993 /* TaskDashboardRouterInput.swift */,
+				93300641C8B9711EFBA61192 /* TaskDashboardRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		717E5B4EB9C0C37BC5087994 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FE902BEE41DE03349F07F8D /* TaskDashboardViewTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0A0BCD020436F3E00BBFC14 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C0A0BCD120436F8B00BBFC14 /* Task.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		C0D7161B2040188B00D52A57 = {
@@ -141,13 +289,14 @@
 		C0D716262040188B00D52A57 /* Eisenhower Todo */ = {
 			isa = PBXGroup;
 			children = (
+				C0A0BCD020436F3E00BBFC14 /* Entity */,
 				C0D716272040188B00D52A57 /* AppDelegate.swift */,
-				C0D716292040188B00D52A57 /* ViewController.swift */,
 				C0D7162B2040188B00D52A57 /* Main.storyboard */,
 				C0D7162E2040188B00D52A57 /* Assets.xcassets */,
 				C0D716302040188B00D52A57 /* LaunchScreen.storyboard */,
 				C0D71655204019B500D52A57 /* GoogleService-Info.plist */,
 				C0D716332040188B00D52A57 /* Info.plist */,
+				3AFBF132550AF8A0E3B0D6A7 /* TaskDashboard */,
 			);
 			path = "Eisenhower Todo";
 			sourceTree = "<group>";
@@ -157,6 +306,7 @@
 			children = (
 				C0D7163C2040188B00D52A57 /* Eisenhower_TodoTests.swift */,
 				C0D7163E2040188B00D52A57 /* Info.plist */,
+				0E04C9E5BE3912A6616F8FCA /* TaskDashboard */,
 			);
 			path = "Eisenhower TodoTests";
 			sourceTree = "<group>";
@@ -168,6 +318,14 @@
 				C0D716492040188B00D52A57 /* Info.plist */,
 			);
 			path = "Eisenhower TodoUITests";
+			sourceTree = "<group>";
+		};
+		EC31B7AF81CABA7D242CD826 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				712D0C3EDBADC16E5EE34FB0 /* TaskDashboardConfiguratorTests.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,8 +622,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0D7162A2040188B00D52A57 /* ViewController.swift in Sources */,
 				C0D716282040188B00D52A57 /* AppDelegate.swift in Sources */,
+				0D30139B0D65F48019643FDC /* TaskDashboardViewInput.swift in Sources */,
+				03C6335D16DBE5B72DA6DAE2 /* TaskDashboardViewOutput.swift in Sources */,
+				C0A0BCD420447FF500BBFC14 /* TaskCollectionViewCell.swift in Sources */,
+				4361027F1D67D9A65250101F /* TaskDashboardViewController.swift in Sources */,
+				1CFCDE7B47236877AED10A54 /* TaskDashboardModuleInput.swift in Sources */,
+				CF1DEB269499FE4ACBD8CA35 /* TaskDashboardPresenter.swift in Sources */,
+				C0A0BCD220436F8B00BBFC14 /* Task.swift in Sources */,
+				B11767E4984416E6467AB409 /* TaskDashboardInteractorInput.swift in Sources */,
+				3191E181AC0A5D2A1BEF977E /* TaskDashboardInteractorOutput.swift in Sources */,
+				137000ECBC1A69F269A73047 /* TaskDashboardInteractor.swift in Sources */,
+				666237EA9A715A29EB6C9241 /* TaskDashboardRouterInput.swift in Sources */,
+				C00E021A1CE10BBB3DCC6E51 /* TaskDashboardRouter.swift in Sources */,
+				3527335D500E3554B8488DFB /* TaskDashboardConfigurator.swift in Sources */,
+				77F44403B9B6A76900F595E0 /* TaskDashboardInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +645,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0D7163D2040188B00D52A57 /* Eisenhower_TodoTests.swift in Sources */,
+				916A0206CF0D98F77B5DD179 /* TaskDashboardConfiguratorTests.swift in Sources */,
+				5281C0684C6C39F918DBD121 /* TaskDashboardViewTests.swift in Sources */,
+				596E8C77ED2818881CDD71DC /* TaskDashboardInteractorTests.swift in Sources */,
+				255CD0DD895D8E8677C13D0C /* TaskDashboardPresenterTests.swift in Sources */,
+				B6B72DEDE908ECFBB7CA1497 /* TaskDashboardRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
