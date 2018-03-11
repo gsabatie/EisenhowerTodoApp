@@ -1,0 +1,13 @@
+//
+//  DataManagerOutput.swift
+//  Eisenhower Todo
+//
+//  Created by Guillaume Sabatie on 11/03/2018.
+//  Copyright © 2018 Guillaume Sabatie. All rights reserved.
+//
+
+import Foundation
+
+protocol DataManagerOutput{
+    func didGetAllTask()
+}

@@ -22,6 +22,7 @@
 		916A0206CF0D98F77B5DD179 /* TaskDashboardConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D0C3EDBADC16E5EE34FB0 /* TaskDashboardConfiguratorTests.swift */; };
 		B11767E4984416E6467AB409 /* TaskDashboardInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E85D3289D9BD8ECEEEBB276 /* TaskDashboardInteractorInput.swift */; };
 		B6B72DEDE908ECFBB7CA1497 /* TaskDashboardRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B71B71818D3CA15E39883 /* TaskDashboardRouterTests.swift */; };
+		BC9D3B524CB47F3420A84846 /* Pods_Eisenhower_Todo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD4DAB54ED96838F98BB0DF /* Pods_Eisenhower_Todo.framework */; };
 		C00E021A1CE10BBB3DCC6E51 /* TaskDashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93300641C8B9711EFBA61192 /* TaskDashboardRouter.swift */; };
 		C06A7AE420401DFF00E11F51 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06A7AE520401DFF00E11F51 /* GoogleToolboxForMac.framework */; };
 		C0A0BCD220436F8B00BBFC14 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0BCD120436F8B00BBFC14 /* Task.swift */; };
@@ -33,6 +34,9 @@
 		C0D7163D2040188B00D52A57 /* Eisenhower_TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D7163C2040188B00D52A57 /* Eisenhower_TodoTests.swift */; };
 		C0D716482040188B00D52A57 /* Eisenhower_TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D716472040188B00D52A57 /* Eisenhower_TodoUITests.swift */; };
 		C0D71656204019B500D52A57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0D71655204019B500D52A57 /* GoogleService-Info.plist */; };
+		C0FDC7F2205585B3008A423A /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FDC7F1205585B3008A423A /* FireBaseManager.swift */; };
+		C0FDC7F4205586FD008A423A /* DataManagerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FDC7F3205586FD008A423A /* DataManagerInput.swift */; };
+		C0FDC7F62055872C008A423A /* DataManagerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FDC7F52055872B008A423A /* DataManagerOutput.swift */; };
 		CF1DEB269499FE4ACBD8CA35 /* TaskDashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1A11DFA7CFE02B4F0DD4F /* TaskDashboardPresenter.swift */; };
 		F584F7E00AC23CBCCF097EFC /* Pods_Eisenhower_TodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404221DFE059E49062715C44 /* Pods_Eisenhower_TodoTests.framework */; };
 		F6B7D89FFE1E48934ADE564C /* Pods_Eisenhower_TodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4D4CCB5E2D9B856F81C011 /* Pods_Eisenhower_TodoUITests.framework */; };
@@ -91,6 +95,9 @@
 		C0D716472040188B00D52A57 /* Eisenhower_TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eisenhower_TodoUITests.swift; sourceTree = "<group>"; };
 		C0D716492040188B00D52A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0D71655204019B500D52A57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0FDC7F1205585B3008A423A /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
+		C0FDC7F3205586FD008A423A /* DataManagerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerInput.swift; sourceTree = "<group>"; };
+		C0FDC7F52055872B008A423A /* DataManagerOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerOutput.swift; sourceTree = "<group>"; };
 		C5B25207D977EDE02F9737E3 /* Pods-Eisenhower TodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D2947F7ACFF6A2C2E20BB3BD /* TaskDashboardInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInteractorTests.swift; sourceTree = "<group>"; };
 		E553AE6EF741E5E27867CB2B /* Pods-Eisenhower TodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C06A7AE420401DFF00E11F51 /* GoogleToolboxForMac.framework in Frameworks */,
+				BC9D3B524CB47F3420A84846 /* Pods_Eisenhower_Todo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,13 +297,14 @@
 		C0D716262040188B00D52A57 /* Eisenhower Todo */ = {
 			isa = PBXGroup;
 			children = (
-				C0A0BCD020436F3E00BBFC14 /* Entity */,
+				C0FDC7F020558567008A423A /* Manager */,
 				C0D716272040188B00D52A57 /* AppDelegate.swift */,
 				C0D7162B2040188B00D52A57 /* Main.storyboard */,
 				C0D7162E2040188B00D52A57 /* Assets.xcassets */,
 				C0D716302040188B00D52A57 /* LaunchScreen.storyboard */,
 				C0D71655204019B500D52A57 /* GoogleService-Info.plist */,
 				C0D716332040188B00D52A57 /* Info.plist */,
+				C0A0BCD020436F3E00BBFC14 /* Entity */,
 				3AFBF132550AF8A0E3B0D6A7 /* TaskDashboard */,
 			);
 			path = "Eisenhower Todo";
@@ -318,6 +327,16 @@
 				C0D716492040188B00D52A57 /* Info.plist */,
 			);
 			path = "Eisenhower TodoUITests";
+			sourceTree = "<group>";
+		};
+		C0FDC7F020558567008A423A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C0FDC7F1205585B3008A423A /* FireBaseManager.swift */,
+				C0FDC7F3205586FD008A423A /* DataManagerInput.swift */,
+				C0FDC7F52055872B008A423A /* DataManagerOutput.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		EC31B7AF81CABA7D242CD826 /* Configurator */ = {
@@ -526,11 +545,29 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -630,10 +667,13 @@
 				1CFCDE7B47236877AED10A54 /* TaskDashboardModuleInput.swift in Sources */,
 				CF1DEB269499FE4ACBD8CA35 /* TaskDashboardPresenter.swift in Sources */,
 				C0A0BCD220436F8B00BBFC14 /* Task.swift in Sources */,
+				C0FDC7F4205586FD008A423A /* DataManagerInput.swift in Sources */,
 				B11767E4984416E6467AB409 /* TaskDashboardInteractorInput.swift in Sources */,
 				3191E181AC0A5D2A1BEF977E /* TaskDashboardInteractorOutput.swift in Sources */,
 				137000ECBC1A69F269A73047 /* TaskDashboardInteractor.swift in Sources */,
 				666237EA9A715A29EB6C9241 /* TaskDashboardRouterInput.swift in Sources */,
+				C0FDC7F2205585B3008A423A /* FireBaseManager.swift in Sources */,
+				C0FDC7F62055872C008A423A /* DataManagerOutput.swift in Sources */,
 				C00E021A1CE10BBB3DCC6E51 /* TaskDashboardRouter.swift in Sources */,
 				3527335D500E3554B8488DFB /* TaskDashboardConfigurator.swift in Sources */,
 				77F44403B9B6A76900F595E0 /* TaskDashboardInitializer.swift in Sources */,
@@ -811,7 +851,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGQV3YPMH6;
 				INFOPLIST_FILE = "Eisenhower Todo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillaumeSabatie.Eisenhower-Todo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -828,7 +868,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WGQV3YPMH6;
 				INFOPLIST_FILE = "Eisenhower Todo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.GuillaumeSabatie.Eisenhower-Todo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

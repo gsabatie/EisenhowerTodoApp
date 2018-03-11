@@ -57,7 +57,7 @@ extension TaskDashboardViewController :UICollectionViewDataSource {
             return collectionView.dequeueReusableCell(withReuseIdentifier: addTaskCellIdentifier, for: indexPath)
         }
         let taskToDisplay = tasks[indexPath.row]
-        var cell = collectionView.dequeueReusableCell(withReuseIdentifier: taskCellIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: taskCellIdentifier, for: indexPath)
         
         if let cell = cell as? TaskCollectionViewCell {
             cell.setTaskCell(title: taskToDisplay.title)
