@@ -21,9 +21,9 @@ class TaskCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak private var duDateLabel: UILabel!
     
-    @IBOutlet weak var importantIconImageView: UIImageView!
+    @IBOutlet weak private var importantIconImageView: UIImageView!
     
-    @IBOutlet weak var urgentIconImageView: UIImageView!
+    @IBOutlet weak private var urgentIconImageView: UIImageView!
     
     override func awakeFromNib() {
         importantIconImageView.isHidden = true

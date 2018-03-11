@@ -10,7 +10,7 @@ class TaskDashboardInteractor: TaskDashboardInteractorInput {
 
     weak var output: TaskDashboardInteractorOutput!
     let tasks = [Task]()
-
+    
     func findAllTask() {
         output.onTaskRetrieved(tasks)
     }

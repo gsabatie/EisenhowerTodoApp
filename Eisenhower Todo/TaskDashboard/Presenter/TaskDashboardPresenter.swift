@@ -28,11 +28,10 @@ class TaskDashboardPresenter: TaskDashboardModuleInput, TaskDashboardViewOutput,
     var router: TaskDashboardRouterInput!
 
     func viewIsReady() {
-
+        interactor.findAllTask()
     }
     
     func onTaskRetrieved(_ tasks: [Task]) {
-        
+        view.display(task: tasks)
     }
-  
 }

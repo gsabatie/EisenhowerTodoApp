@@ -7,4 +7,5 @@
 //
 
 protocol TaskDashboardModuleInput: class {
+    
 }

@@ -14,5 +14,6 @@ protocol TaskDashboardViewInput: class {
     */
 
     func setupInitialState()
-        
+    
+    func display(task: [Task])
 }
