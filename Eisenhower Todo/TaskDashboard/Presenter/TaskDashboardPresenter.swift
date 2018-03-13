@@ -19,13 +19,28 @@ class TaskDashboardPresenter: TaskDashboardModuleInput, TaskDashboardViewOutput,
         
     }
     
-
+    func onFetchTaskSuccess(_ tasks: [Task]) {
+        
+    }
+    
+    func onFetchTaskFailure(message: String) {
+        
+    }
+    
+    func onDeleteTaskSuccess() {
+        
+    }
+    
+    func onDeleteTaskFailure(message: String) {
+        
+    }
     
     
-
     weak var view: TaskDashboardViewInput!
     var interactor: TaskDashboardInteractorInput!
     var router: TaskDashboardRouterInput!
+
+
 
     func viewIsReady() {
         interactor.findAllTask()

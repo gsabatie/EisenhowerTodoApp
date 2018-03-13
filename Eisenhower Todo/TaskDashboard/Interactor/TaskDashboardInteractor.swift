@@ -6,12 +6,38 @@
 //  Copyright © 2018 EiseinhowerAppTeam. All rights reserved.
 //
 
-class TaskDashboardInteractor: TaskDashboardInteractorInput {
+class TaskDashboardInteractor: TaskDashboardInteractorInput,DataManagerOutput {
+ 
 
     weak var output: TaskDashboardInteractorOutput!
-    let tasks = [Task]()
     
+    weak var dataSource: TaskDashboardDataManagerInput!
+    
+
     func findAllTask() {
-        output.onTaskRetrieved(tasks)
+        
     }
+    
+    func delete(task: Task) {
+        
+    }
+    
+    func foundAllTask(task: [Task]) {
+    
+    }
+    
+    func getAllTask() -> [Task] {
+        return [Task]()
+    }
+    
+    func deleted(taskID: String) {
+        
+    }
+    
+    func added(task: Task) {
+        
+    }
+    
+    
+
 }

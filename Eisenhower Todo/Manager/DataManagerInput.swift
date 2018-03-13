@@ -10,4 +10,9 @@ import Foundation
 
 protocol DataManagerInput {
     func findAllTask()
+    func getAllTask() ->[Task]
+    
+    func deleteTask(taskID:String)
+    
+    func add(task:Task)
 }
