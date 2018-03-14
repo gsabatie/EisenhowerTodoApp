@@ -31,6 +31,9 @@
 		C06A7AE420401DFF00E11F51 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06A7AE520401DFF00E11F51 /* GoogleToolboxForMac.framework */; };
 		C0A0BCD220436F8B00BBFC14 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0BCD120436F8B00BBFC14 /* Task.swift */; };
 		C0A0BCD420447FF500BBFC14 /* TaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0BCD320447FF500BBFC14 /* TaskCollectionViewCell.swift */; };
+		C0A0F5AB2059BE98000979FC /* TaskDashBoardFirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0F5AA2059BE98000979FC /* TaskDashBoardFirebaseManager.swift */; };
+		C0A0F5AD2059C728000979FC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0F5AC2059C728000979FC /* Constant.swift */; };
+		C0A0F5B02059CD84000979FC /* TaskDashBoardFirebaseManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0F5AF2059CD84000979FC /* TaskDashBoardFirebaseManagerTest.swift */; };
 		C0D716282040188B00D52A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D716272040188B00D52A57 /* AppDelegate.swift */; };
 		C0D7162D2040188B00D52A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D7162B2040188B00D52A57 /* Main.storyboard */; };
 		C0D7162F2040188B00D52A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D7162E2040188B00D52A57 /* Assets.xcassets */; };
@@ -87,6 +90,9 @@
 		C06A7AE520401DFF00E11F51 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A0BCD120436F8B00BBFC14 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C0A0BCD320447FF500BBFC14 /* TaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCollectionViewCell.swift; sourceTree = "<group>"; };
+		C0A0F5AA2059BE98000979FC /* TaskDashBoardFirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDashBoardFirebaseManager.swift; sourceTree = "<group>"; };
+		C0A0F5AC2059C728000979FC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C0A0F5AF2059CD84000979FC /* TaskDashBoardFirebaseManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDashBoardFirebaseManagerTest.swift; sourceTree = "<group>"; };
 		C0D716242040188B00D52A57 /* Eisenhower Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eisenhower Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D716272040188B00D52A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0D7162C2040188B00D52A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,6 +149,7 @@
 		0E04C9E5BE3912A6616F8FCA /* TaskDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				C0A0F5AE2059CD47000979FC /* DataManager */,
 				EC31B7AF81CABA7D242CD826 /* Configurator */,
 				717E5B4EB9C0C37BC5087994 /* View */,
 				2190503E9439AED697567E3D /* Interactor */,
@@ -274,6 +281,7 @@
 			children = (
 				C046B34220586B3700128FEE /* TaskDashboardDataMangerInput.swift */,
 				C046B34420586B6600128FEE /* TaskDashboardDataManagerOutput.swift */,
+				C0A0F5AA2059BE98000979FC /* TaskDashBoardFirebaseManager.swift */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -284,6 +292,14 @@
 				C0A0BCD120436F8B00BBFC14 /* Task.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		C0A0F5AE2059CD47000979FC /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C0A0F5AF2059CD84000979FC /* TaskDashBoardFirebaseManagerTest.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 		C0D7161B2040188B00D52A57 = {
@@ -320,6 +336,7 @@
 				C0D716332040188B00D52A57 /* Info.plist */,
 				C0A0BCD020436F3E00BBFC14 /* Entity */,
 				3AFBF132550AF8A0E3B0D6A7 /* TaskDashboard */,
+				C0A0F5AC2059C728000979FC /* Constant.swift */,
 			);
 			path = "Eisenhower Todo";
 			sourceTree = "<group>";
@@ -685,6 +702,7 @@
 			files = (
 				C0D716282040188B00D52A57 /* AppDelegate.swift in Sources */,
 				0D30139B0D65F48019643FDC /* TaskDashboardViewInput.swift in Sources */,
+				C0A0F5AB2059BE98000979FC /* TaskDashBoardFirebaseManager.swift in Sources */,
 				03C6335D16DBE5B72DA6DAE2 /* TaskDashboardViewOutput.swift in Sources */,
 				C0A0BCD420447FF500BBFC14 /* TaskCollectionViewCell.swift in Sources */,
 				4361027F1D67D9A65250101F /* TaskDashboardViewController.swift in Sources */,
@@ -701,6 +719,7 @@
 				C046B34320586B3700128FEE /* TaskDashboardDataMangerInput.swift in Sources */,
 				C046B3402057020700128FEE /* DataManagerOutput.swift in Sources */,
 				C00E021A1CE10BBB3DCC6E51 /* TaskDashboardRouter.swift in Sources */,
+				C0A0F5AD2059C728000979FC /* Constant.swift in Sources */,
 				3527335D500E3554B8488DFB /* TaskDashboardConfigurator.swift in Sources */,
 				77F44403B9B6A76900F595E0 /* TaskDashboardInitializer.swift in Sources */,
 			);
@@ -713,6 +732,7 @@
 				C0D7163D2040188B00D52A57 /* Eisenhower_TodoTests.swift in Sources */,
 				916A0206CF0D98F77B5DD179 /* TaskDashboardConfiguratorTests.swift in Sources */,
 				5281C0684C6C39F918DBD121 /* TaskDashboardViewTests.swift in Sources */,
+				C0A0F5B02059CD84000979FC /* TaskDashBoardFirebaseManagerTest.swift in Sources */,
 				596E8C77ED2818881CDD71DC /* TaskDashboardInteractorTests.swift in Sources */,
 				255CD0DD895D8E8677C13D0C /* TaskDashboardPresenterTests.swift in Sources */,
 				B6B72DEDE908ECFBB7CA1497 /* TaskDashboardRouterTests.swift in Sources */,

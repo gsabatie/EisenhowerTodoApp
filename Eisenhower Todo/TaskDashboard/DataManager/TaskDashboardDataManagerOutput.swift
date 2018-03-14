@@ -8,16 +8,11 @@
 
 import Foundation
 
-enum DataManagerError {
-    case NetworkError
-    case ServerError
-    
-}
 
 protocol TaskDashboardDataManagerOutput : class{
     func onGetTasks(_ task:[Task])
     
     func onDeleteTask()
     
-    func onError(_ error: DataManagerError)
+    func onError(_ error: String)
 }

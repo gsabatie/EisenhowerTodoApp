@@ -7,13 +7,12 @@
 //
 
 class TaskDashboardInteractor: TaskDashboardInteractorInput,DataManagerOutput {
- 
 
     weak var output: TaskDashboardInteractorOutput!
     
     weak var dataSource: TaskDashboardDataManagerInput!
     
-
+    
     func findAllTask() {
         
     }
@@ -23,7 +22,7 @@ class TaskDashboardInteractor: TaskDashboardInteractorInput,DataManagerOutput {
     }
     
     func foundAllTask(task: [Task]) {
-    
+        
     }
     
     func getAllTask() -> [Task] {
@@ -38,6 +37,4 @@ class TaskDashboardInteractor: TaskDashboardInteractorInput,DataManagerOutput {
         
     }
     
-    
-
 }
