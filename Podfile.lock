@@ -72,6 +72,7 @@ PODS:
   - Nimble (7.0.3)
   - Protobuf (3.5.0)
   - Quick (1.2.0)
+  - Windless (0.1.5)
 
 DEPENDENCIES:
   - Firebase/Core
@@ -80,6 +81,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - Nimble
   - Quick
+  - Windless (~> 0.1.5)
 
 SPEC CHECKSUMS:
   BoringSSL: 32764dbaf5f5888cf51fbaa172a010126b41bcd4
@@ -101,7 +103,8 @@ SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
 
-PODFILE CHECKSUM: c829eeb593e0ead682c8bec4d3fc03c6ee26da96
+PODFILE CHECKSUM: 77a75a7da9d433c2dfb40f9d7362c7dce6c390b3
 
 COCOAPODS: 1.4.0

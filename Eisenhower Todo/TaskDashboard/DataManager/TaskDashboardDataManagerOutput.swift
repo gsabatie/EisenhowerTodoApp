@@ -8,11 +8,12 @@
 
 import Foundation
 
-
 protocol TaskDashboardDataManagerOutput : class{
     func onGetTasks(_ task:[Task])
     
     func onDeleteTask()
     
-    func onError(_ error: String)
+    func onGetTaskError(_ message: String)
+    
+    func onDeleteTaskError(_ message: String)
 }

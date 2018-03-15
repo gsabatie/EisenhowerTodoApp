@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -97,6 +98,9 @@
                                             <constraint firstAttribute="trailingMargin" secondItem="Q9Q-7O-u4r" secondAttribute="trailing" id="yfp-aE-gQk"/>
                                             <constraint firstItem="aam-4R-5g3" firstAttribute="top" secondItem="uBn-y7-qcz" secondAttribute="top" constant="8" id="zoC-V5-MXk"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isWindlessable" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="duDateLabel" destination="ykJ-Xy-BeY" id="edb-LY-rrQ"/>
                                             <outlet property="importantIconImageView" destination="eQM-rg-yEP" id="Zhd-mz-Znn"/>

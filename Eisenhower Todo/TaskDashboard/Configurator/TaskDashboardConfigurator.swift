@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class TaskDashboardModuleConfigurator {
 
@@ -18,6 +19,7 @@ class TaskDashboardModuleConfigurator {
     }
 
     private func configure(viewController: TaskDashboardViewController) {
+        FirebaseApp.configure()
 
         let router = TaskDashboardRouter()
 
@@ -28,6 +30,10 @@ class TaskDashboardModuleConfigurator {
         let interactor = TaskDashboardInteractor()
         interactor.output = presenter
 
+        let firebaseDatasource = TaskDashboardFirebaseManager()
+        firebaseDatasource.output = interactor
+        
+        interactor.dataSource = firebaseDatasource
         presenter.interactor = interactor
         viewController.output = presenter
     }

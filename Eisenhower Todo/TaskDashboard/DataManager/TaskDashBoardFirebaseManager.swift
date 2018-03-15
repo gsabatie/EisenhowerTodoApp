@@ -18,7 +18,8 @@ class TaskDashboardFirebaseManager {
     let tasksCollectionRef : CollectionReference
     
     init() {
-         tasksCollectionRef = db.collection("users")
+        
+        tasksCollectionRef = db.collection(CollectionDocumentKey.Task.rawValue)
     }
     
     
@@ -35,11 +36,9 @@ class TaskDashboardFirebaseManager {
 
 extension TaskDashboardFirebaseManager : TaskDashboardDataManagerInput {
     func getTasks() {
-        
-      
         getAllTaskDocuments { (documents, err) in
             if let err = err {
-                self.output.onError(err.localizedDescription)
+                self.output.onGetTaskError(err.localizedDescription)
             } else if let documents = documents {
                 var tasks = [Task]()
                 for document in documents {
@@ -55,7 +54,7 @@ extension TaskDashboardFirebaseManager : TaskDashboardDataManagerInput {
     func deleteTask(id: String) {
         tasksCollectionRef.document(id).delete() { err in
             if let err = err {
-                self.output.onError(err.localizedDescription)
+                self.output.onDeleteTaskError(err.localizedDescription)
             } else {
                 self.output.onDeleteTask()
             }

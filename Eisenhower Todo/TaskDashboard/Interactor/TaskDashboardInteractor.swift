@@ -6,35 +6,43 @@
 //  Copyright © 2018 EiseinhowerAppTeam. All rights reserved.
 //
 
-class TaskDashboardInteractor: TaskDashboardInteractorInput,DataManagerOutput {
+class TaskDashboardInteractor  {
 
     weak var output: TaskDashboardInteractorOutput!
     
-    weak var dataSource: TaskDashboardDataManagerInput!
+     var dataSource: TaskDashboardDataManagerInput!
     
-    
+
+}
+
+
+extension TaskDashboardInteractor : TaskDashboardInteractorInput {
     func findAllTask() {
-        
+        dataSource.getTasks()
     }
     
     func delete(task: Task) {
-        
+        dataSource.deleteTask(id: task.id)
     }
     
-    func foundAllTask(task: [Task]) {
-        
+
+}
+
+
+extension TaskDashboardInteractor: TaskDashboardDataManagerOutput {
+    func onGetTaskError(_ message: String) {
+        output.onFetchTaskFailure(message: message)
     }
     
-    func getAllTask() -> [Task] {
-        return [Task]()
+    func onDeleteTaskError(_ message: String) {
+        output.onFetchTaskFailure(message: message)
     }
     
-    func deleted(taskID: String) {
-        
+    func onGetTasks(_ task: [Task]) {
+        output.onFetchTaskSuccess(task)
     }
     
-    func added(task: Task) {
-        
+    func onDeleteTask() {
+        output.onDeleteTaskSuccess()
     }
-    
 }

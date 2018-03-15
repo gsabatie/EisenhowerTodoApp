@@ -48,6 +48,9 @@ class TaskDashboardFirebaseManagerSpec: QuickSpec {
         var dataManager: TaskDashboardFirebaseManager!
         var mockInteractor: MockInteractor!
         
+        
+
+        
         describe("TaskDashBoardFirebaseManager") {
             beforeEach {
                 dataManager = TaskDashboardFirebaseManager()
@@ -90,6 +93,14 @@ class TaskDashboardFirebaseManagerSpec: QuickSpec {
 }
 
 class MockInteractor: TaskDashboardDataManagerOutput {
+    func onGetTaskError(_ message: String) {
+        
+    }
+    
+    func onDeleteTaskError(_ message: String) {
+        
+    }
+    
     var tasks = [Task]()
     func onGetTasks(_ task: [Task]) {
         tasks = task

@@ -34,6 +34,7 @@
 		C0A0F5AB2059BE98000979FC /* TaskDashBoardFirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0F5AA2059BE98000979FC /* TaskDashBoardFirebaseManager.swift */; };
 		C0A0F5AD2059C728000979FC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0F5AC2059C728000979FC /* Constant.swift */; };
 		C0A0F5B02059CD84000979FC /* TaskDashBoardFirebaseManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0F5AF2059CD84000979FC /* TaskDashBoardFirebaseManagerTest.swift */; };
+		C0A0F5B42059EBE4000979FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0A0F5B32059EBE4000979FC /* GoogleService-Info.plist */; };
 		C0D716282040188B00D52A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D716272040188B00D52A57 /* AppDelegate.swift */; };
 		C0D7162D2040188B00D52A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D7162B2040188B00D52A57 /* Main.storyboard */; };
 		C0D7162F2040188B00D52A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D7162E2040188B00D52A57 /* Assets.xcassets */; };
@@ -93,6 +94,7 @@
 		C0A0F5AA2059BE98000979FC /* TaskDashBoardFirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDashBoardFirebaseManager.swift; sourceTree = "<group>"; };
 		C0A0F5AC2059C728000979FC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		C0A0F5AF2059CD84000979FC /* TaskDashBoardFirebaseManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDashBoardFirebaseManagerTest.swift; sourceTree = "<group>"; };
+		C0A0F5B32059EBE4000979FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C0D716242040188B00D52A57 /* Eisenhower Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eisenhower Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D716272040188B00D52A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0D7162C2040188B00D52A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -344,6 +346,7 @@
 		C0D7163B2040188B00D52A57 /* Eisenhower TodoTests */ = {
 			isa = PBXGroup;
 			children = (
+				C0A0F5B32059EBE4000979FC /* GoogleService-Info.plist */,
 				C0D7163C2040188B00D52A57 /* Eisenhower_TodoTests.swift */,
 				C0D7163E2040188B00D52A57 /* Info.plist */,
 				0E04C9E5BE3912A6616F8FCA /* TaskDashboard */,
@@ -505,6 +508,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A0F5B42059EBE4000979FC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +563,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Windless/Windless.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
@@ -572,6 +577,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Windless.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
