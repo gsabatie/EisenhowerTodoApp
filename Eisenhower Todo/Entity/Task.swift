@@ -16,8 +16,7 @@ struct Task {
     var dueDate:            Date
     var isImportant:        Bool
     var isUrgent:           Bool
-    var owner:         User
-    var assignee:      [User]
+
 }
 
 protocol DictionaryInitiable {
@@ -32,7 +31,7 @@ extension Task : DictionaryInitiable {
         self.dueDate = Date()
         self.isImportant = false
         self.isUrgent = false
-        
+
         if let name = dictionary[TaskDocumentKey.Name.rawValue] as? String,
             let contentDescription = dictionary[TaskDocumentKey.Description.rawValue] as? String,
             let dueDate = dictionary[TaskDocumentKey.DueDate.rawValue] as? Date,
