@@ -6,33 +6,60 @@
 //  Copyright © 2018 EiseinhowerAppTeam. All rights reserved.
 //
 
-class TaskDashboardPresenter: TaskDashboardModuleInput, TaskDashboardViewOutput, TaskDashboardInteractorOutput {
+class TaskDashboardPresenter  {
+
+    
+    
+    weak var view: TaskDashboardViewInput!
+    var interactor: TaskDashboardInteractorInput!
+    var router: TaskDashboardRouterInput!
+
+
+
+}
+
+extension TaskDashboardPresenter: TaskDashboardModuleInput {
+    
+}
+
+extension TaskDashboardPresenter: TaskDashboardViewOutput {
+    func viewIsReady() {
+        interactor.findAllTask()
+    }
+    
     func onAddButtonTouched() {
         
     }
     
     func onCollectionViewItemSwiped() {
-        
+
     }
     
     func onCollectionViewItemSelected() {
         
     }
     
-
     
-    
+}
 
-    weak var view: TaskDashboardViewInput!
-    var interactor: TaskDashboardInteractorInput!
-    var router: TaskDashboardRouterInput!
-
-    func viewIsReady() {
-
+extension TaskDashboardPresenter:TaskDashboardInteractorOutput {
+    func onFetchTaskSuccess(_ tasks: [Task]) {
+         view.endDisplayLoading()
+        view.display(task: tasks)
+       
     }
     
-    func onTaskRetrieved(_ tasks: [Task]) {
+    func onFetchTaskFailure(message: String) {
         
     }
-  
+    
+    func onDeleteTaskSuccess() {
+        
+    }
+    
+    func onDeleteTaskFailure(message: String) {
+        
+    }
+    
+    
 }

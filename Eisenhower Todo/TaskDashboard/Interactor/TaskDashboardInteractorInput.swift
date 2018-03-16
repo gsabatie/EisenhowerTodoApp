@@ -11,5 +11,8 @@ import Foundation
 protocol TaskDashboardInteractorInput {
 
     func findAllTask()
+
+    func delete(task:Task)
+    
     
 }

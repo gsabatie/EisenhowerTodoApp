@@ -14,5 +14,12 @@ protocol TaskDashboardViewInput: class {
     */
 
     func setupInitialState()
-        
+    
+    func display(task: [Task])
+    
+    func displayAlertMessage(messageToDisplay: String)
+    
+    func startDisplayLoading()
+    
+    func endDisplayLoading()
 }
