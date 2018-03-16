@@ -32,7 +32,7 @@ extension TaskDashboardPresenter: TaskDashboardViewOutput {
     }
     
     func onCollectionViewItemSwiped() {
-        
+
     }
     
     func onCollectionViewItemSelected() {

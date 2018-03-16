@@ -16,6 +16,17 @@ enum TaskDocumentKey: String {
     case IsUrgent = "isUrgent"
 }
 
+enum UserDocumentKey: String {
+    case id = "id"
+    case login = "login"
+    case bio = "bio"
+    case email = "email"
+    case profilePictureURL = ""
+    case task = "task"
+}
+
+
 enum CollectionDocumentKey: String {
     case Task = "task"
+    case User = "user"
 }

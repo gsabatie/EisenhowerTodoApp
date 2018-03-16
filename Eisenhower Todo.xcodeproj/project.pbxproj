@@ -24,6 +24,7 @@
 		9AA2396BEE81EF7CE680A30E /* Pods_Eisenhower_TodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF7142C6B32714778AFE699 /* Pods_Eisenhower_TodoTests.framework */; };
 		B11767E4984416E6467AB409 /* TaskDashboardInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E85D3289D9BD8ECEEEBB276 /* TaskDashboardInteractorInput.swift */; };
 		B6B72DEDE908ECFBB7CA1497 /* TaskDashboardRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B71B71818D3CA15E39883 /* TaskDashboardRouterTests.swift */; };
+		C00B0542205C89EF002E717A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00B0541205C89EF002E717A /* User.swift */; };
 		C00E021A1CE10BBB3DCC6E51 /* TaskDashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93300641C8B9711EFBA61192 /* TaskDashboardRouter.swift */; };
 		C046B3402057020700128FEE /* DataManagerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046B33F2057020700128FEE /* DataManagerOutput.swift */; };
 		C046B34320586B3700128FEE /* TaskDashboardDataMangerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046B34220586B3700128FEE /* TaskDashboardDataMangerInput.swift */; };
@@ -85,6 +86,7 @@
 		9CDC13F215790E8127A80993 /* TaskDashboardRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardRouterInput.swift; sourceTree = "<group>"; };
 		BA7AD861692B5A2F636F2478 /* Pods-Eisenhower TodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB4ABE65853F0B80A2E1CE2A /* Pods-Eisenhower Todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower Todo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo.release.xcconfig"; sourceTree = "<group>"; };
+		C00B0541205C89EF002E717A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C046B33F2057020700128FEE /* DataManagerOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerOutput.swift; sourceTree = "<group>"; };
 		C046B34220586B3700128FEE /* TaskDashboardDataMangerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDashboardDataMangerInput.swift; sourceTree = "<group>"; };
 		C046B34420586B6600128FEE /* TaskDashboardDataManagerOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDashboardDataManagerOutput.swift; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				C0A0BCD120436F8B00BBFC14 /* Task.swift */,
+				C00B0541205C89EF002E717A /* User.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -728,6 +731,7 @@
 				C0A0F5AD2059C728000979FC /* Constant.swift in Sources */,
 				3527335D500E3554B8488DFB /* TaskDashboardConfigurator.swift in Sources */,
 				77F44403B9B6A76900F595E0 /* TaskDashboardInitializer.swift in Sources */,
+				C00B0542205C89EF002E717A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

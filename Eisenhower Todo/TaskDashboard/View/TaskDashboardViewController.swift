@@ -9,7 +9,7 @@
 import UIKit
 import Windless
 
-class TaskDashboardViewController: UIViewController{
+class TaskDashboardViewController: UIViewController, TaskDashboardViewInput{
  
 
     @IBOutlet private weak var taskCollectionView: UICollectionView!
@@ -44,14 +44,12 @@ class TaskDashboardViewController: UIViewController{
         self.taskCollectionView.reloadData()
         self.taskCollectionView.reloadInputViews()
     }
-}
-
-extension TaskDashboardViewController:  TaskDashboardViewInput {
-
+    
+    
     
     // MARK: TaskDashboardViewInput
     func setupInitialState() {
-      
+        
     }
     
     func display(task: [Task]) {
@@ -73,10 +71,12 @@ extension TaskDashboardViewController:  TaskDashboardViewInput {
     }
     
     
+    
 }
 
+
 extension TaskDashboardViewController : UICollectionViewDelegate {
-    
+
 }
 
 extension TaskDashboardViewController :UICollectionViewDataSource {

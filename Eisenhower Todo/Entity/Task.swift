@@ -16,6 +16,8 @@ struct Task {
     var dueDate:            Date
     var isImportant:        Bool
     var isUrgent:           Bool
+    var owner:         User
+    var assignee:      [User]
 }
 
 protocol DictionaryInitiable {

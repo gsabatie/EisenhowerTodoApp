@@ -29,6 +29,7 @@ class TaskCollectionViewCell: UICollectionViewCell {
         importantIconImageView.isHidden = true
         urgentIconImageView.isHidden = true
     }
+    
 }
 
 extension TaskCollectionViewCell : TaskCollectionViewCellInput {
@@ -37,7 +38,7 @@ extension TaskCollectionViewCell : TaskCollectionViewCellInput {
     }
     
     func setTaskCell(dueDate: Date) {
-        
+        duDateLabel.text = dueDate.humanReadableString()
     }
     
     func setTaskCell(important: Bool) {
@@ -49,4 +50,12 @@ extension TaskCollectionViewCell : TaskCollectionViewCellInput {
     }
     
     
+}
+
+extension Date {
+    func humanReadableString() -> String{
+        let formatter = DateFormatter()
+        formatter.dateFormat = "dd/MM/yyyy"
+        return formatter.string(from: self)
+    }
 }

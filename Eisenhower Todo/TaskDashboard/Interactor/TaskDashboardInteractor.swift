@@ -24,8 +24,6 @@ extension TaskDashboardInteractor : TaskDashboardInteractorInput {
     func delete(task: Task) {
         dataSource.deleteTask(id: task.id)
     }
-    
-
 }
 
 
