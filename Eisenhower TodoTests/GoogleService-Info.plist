@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>781259626306-i0ft6d4v1s1v6klr5h3mgfveikeqkqq2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.781259626306-i0ft6d4v1s1v6klr5h3mgfveikeqkqq2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBuHb2vMcsNuRkI8ujjn7XrxTEpPeUUi0E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>781259626306</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.GuillaumeSabatie.Eisenhower-Todo</string>
+	<key>PROJECT_ID</key>
+	<string>sportproject-69617</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sportproject-69617.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:781259626306:ios:052390dcfaa89af1</string>
+	<key>DATABASE_URL</key>
+	<string>https://sportproject-69617.firebaseio.com</string>
+</dict>
+</plist>
