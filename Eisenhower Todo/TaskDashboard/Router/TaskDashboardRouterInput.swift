@@ -7,7 +7,13 @@
 //
 
 import Foundation
+import UIKit
 
 protocol TaskDashboardRouterInput {
-
+    func presentTaskDashBoardModule(fromViewController viewController: UIViewController)
+    
+    func presentAddTaskModule()
+    
+    func presentUserProfilModule()
+    
 }

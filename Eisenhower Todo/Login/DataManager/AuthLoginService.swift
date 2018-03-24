@@ -11,6 +11,7 @@ import FirebaseAuth
 
 class AuthLoginService {
     weak var output: LoginAuthServiceOutput!
+    
 }
 
 extension AuthLoginService : LoginAuthServiceInput {

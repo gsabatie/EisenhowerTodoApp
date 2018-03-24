@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="beC-fc-QzS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t80-1N-ywE">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -132,6 +132,101 @@
                 </customObject>
             </objects>
             <point key="canvasLocation" x="152.80000000000001" y="55.322338830584712"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="3YV-b9-Uf5">
+            <objects>
+                <viewController storyboardIdentifier="loginVC" id="t80-1N-ywE" customClass="LoginViewController" customModule="Eisenhower_Todo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Q5-R6-OhA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FE5-Sd-M8b">
+                                <rect key="frame" x="32" y="120" width="311" height="142"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aaB-m5-9Na">
+                                        <rect key="frame" x="0.0" y="0.0" width="311" height="42"/>
+                                        <color key="backgroundColor" red="0.050980392156862744" green="0.62745098039215685" blue="0.69803921568627447" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="3Sb-cx-Y90"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="****" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U2v-Al-LK8">
+                                        <rect key="frame" x="0.0" y="50" width="311" height="42"/>
+                                        <color key="backgroundColor" red="0.050980392159999999" green="0.62745098040000002" blue="0.69803921570000005" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="Hsw-cW-mCP"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isWindlessable" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c66-1H-UX1">
+                                        <rect key="frame" x="85.5" y="100" width="140" height="42"/>
+                                        <color key="backgroundColor" red="1" green="0.72549019609999998" blue="0.2156862745" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="42" id="EcH-y8-Vw3"/>
+                                            <constraint firstAttribute="width" constant="140" id="Kth-VA-Tvw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="tintColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="loginButtonDidTouched:" destination="t80-1N-ywE" eventType="touchUpInside" id="Rfg-s6-R8X"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aaB-m5-9Na" firstAttribute="leading" secondItem="FE5-Sd-M8b" secondAttribute="leading" id="Ekg-18-Q9B"/>
+                                    <constraint firstAttribute="trailing" secondItem="U2v-Al-LK8" secondAttribute="trailing" id="Ui5-sg-QUv"/>
+                                    <constraint firstItem="U2v-Al-LK8" firstAttribute="leading" secondItem="FE5-Sd-M8b" secondAttribute="leading" id="l89-gd-gCf"/>
+                                    <constraint firstAttribute="trailing" secondItem="aaB-m5-9Na" secondAttribute="trailing" id="llj-rx-XjV"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sU1-mZ-SQ0">
+                                <rect key="frame" x="137.5" y="327" width="100" height="36"/>
+                                <color key="backgroundColor" red="0.97254901959999995" green="0.90980392160000001" blue="0.10980392160000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="6uo-Sm-O6x"/>
+                                    <constraint firstAttribute="width" constant="100" id="ETU-6H-1Q2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Sign In"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50196078430000002" green="0.79215686269999996" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wsu-Cx-IWa" firstAttribute="trailing" secondItem="FE5-Sd-M8b" secondAttribute="trailing" constant="32" id="Ah7-iO-7Nf"/>
+                            <constraint firstItem="FE5-Sd-M8b" firstAttribute="centerX" secondItem="9Q5-R6-OhA" secondAttribute="centerX" id="bPj-Ts-ZSW"/>
+                            <constraint firstItem="sU1-mZ-SQ0" firstAttribute="centerX" secondItem="9Q5-R6-OhA" secondAttribute="centerX" id="ffO-na-nCe"/>
+                            <constraint firstItem="FE5-Sd-M8b" firstAttribute="leading" secondItem="Wsu-Cx-IWa" secondAttribute="leading" constant="32" id="iZz-Uu-zCU"/>
+                            <constraint firstItem="FE5-Sd-M8b" firstAttribute="top" secondItem="Wsu-Cx-IWa" secondAttribute="top" constant="100" id="nhV-sn-lYB"/>
+                            <constraint firstItem="sU1-mZ-SQ0" firstAttribute="top" secondItem="FE5-Sd-M8b" secondAttribute="bottom" constant="65" id="zae-Pl-EbJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wsu-Cx-IWa"/>
+                    </view>
+                    <connections>
+                        <outlet property="LoginButton" destination="c66-1H-UX1" id="WSM-cI-XRo"/>
+                        <outlet property="emailTextField" destination="aaB-m5-9Na" id="GmR-Pb-Dkv"/>
+                        <outlet property="passwordTextField" destination="U2v-Al-LK8" id="ULW-TK-2dh"/>
+                        <outlet property="signInButton" destination="sU1-mZ-SQ0" id="NRR-Aq-alR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MTf-2y-Qps" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Aij-tV-Wrk" customClass="LoginModuleInitializer" customModule="Eisenhower_Todo" customModuleProvider="target">
+                    <connections>
+                        <outlet property="loginViewController" destination="t80-1N-ywE" id="j24-kG-7AG"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="1112.8" y="-17.541229385307346"/>
         </scene>
     </scenes>
     <resources>

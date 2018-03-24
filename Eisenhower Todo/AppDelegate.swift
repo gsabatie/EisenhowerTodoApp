@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         MSAppCenter.start("53b160dd-ce66-4091-a429-20b2d340ea06", withServices:[ MSAnalytics.self, MSCrashes.self ])
                return true
     }
