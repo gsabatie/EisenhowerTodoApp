@@ -1,4 +1,12 @@
 PODS:
+  - AppCenter (1.5.0):
+    - AppCenter/Analytics (= 1.5.0)
+    - AppCenter/Crashes (= 1.5.0)
+  - AppCenter/Analytics (1.5.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.5.0)
+  - AppCenter/Crashes (1.5.0):
+    - AppCenter/Core
   - BoringSSL (10.0):
     - BoringSSL/Implementation (= 10.0)
     - BoringSSL/Interface (= 10.0)
@@ -89,6 +97,7 @@ PODS:
   - Windless (0.1.5)
 
 DEPENDENCIES:
+  - AppCenter
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
@@ -99,6 +108,7 @@ DEPENDENCIES:
   - Windless (~> 0.1.5)
 
 SPEC CHECKSUMS:
+  AppCenter: 42c293f0de27e173aacd600a55a49da5317cd40e
   BoringSSL: 32764dbaf5f5888cf51fbaa172a010126b41bcd4
   Firebase: 92c6ba593e32db0defde464a9adc981d5cb49f97
   FirebaseAnalytics: 3dfae28d4a5e06f86c4fae830efc2ad3fadb19bc
@@ -121,6 +131,6 @@ SPEC CHECKSUMS:
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
   Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
 
-PODFILE CHECKSUM: 3879bcee091816be667e0614627e975ba647f514
+PODFILE CHECKSUM: 183e4d496d9da8b835c5c72feca5544e66c0d048
 
 COCOAPODS: 1.4.0
