@@ -7,6 +7,9 @@
 //
 
 import XCTest
+import Quick
+import Nimble
+@testable import Eisenhower_Todo
 
 class SignupPresenterTest: XCTestCase {
 
@@ -21,14 +24,46 @@ class SignupPresenterTest: XCTestCase {
     }
 
     class MockInteractor: SignupInteractorInput {
+        func create(user: AppUser, withPassword password: String) {
+            
+        }
+        
 
     }
 
     class MockRouter: SignupRouterInput {
+        func pushToTasksDashboard() {
+            
+        }
+        
 
     }
 
     class MockViewController: SignupViewInput {
+        func getUsername() -> String? {
+            return ""
+        }
+        
+        func getEmail() -> String? {
+            return ""
+        }
+        
+        func getPassword() -> String? {
+            return ""
+        }
+        
+        func getSecondPassword() -> String? {
+            return ""
+        }
+        
+        func getUserDescription() -> String? {
+            return ""
+        }
+        
+        func displaySignupError(message: String) {
+            
+        }
+        
 
         func setupInitialState() {
 

@@ -7,6 +7,9 @@
 //
 
 import XCTest
+import Quick
+import Nimble
+@testable import Eisenhower_Todo
 
 class SignupInteractorTests: XCTestCase {
 
@@ -21,6 +24,14 @@ class SignupInteractorTests: XCTestCase {
     }
 
     class MockPresenter: SignupInteractorOutput {
+        func createUserDidSucceed() {
+            
+        }
+        
+        func createUserDidFailed(message: String) {
+            
+        }
+        
 
     }
 }
