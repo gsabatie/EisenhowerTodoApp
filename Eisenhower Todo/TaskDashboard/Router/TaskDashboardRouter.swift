@@ -7,9 +7,26 @@
 //
 import UIKit
 
-class TaskDashboardRouter: TaskDashboardRouterInput {
+let kTaskDashboardViewController = "taskDashBoardVC"
+
+class TaskDashboardRouter{
+    
+
+    var viewController: TaskDashboardViewController!
+    
+    func taskDashboardViewControllerFromStoryboard()-> TaskDashboardViewController {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let viewController = storyboard.instantiateViewController(withIdentifier: kTaskDashboardViewController) as! TaskDashboardViewController
+        return viewController
+    }
+ 
+
+}
+
+extension TaskDashboardRouter :TaskDashboardRouterInput {
+    
     func presentTaskDashBoardModule(fromViewController viewController: UIViewController) {
-        
+        viewController.present(taskDashboardViewControllerFromStoryboard(), animated: true, completion: nil)
     }
     
     func presentAddTaskModule() {
@@ -19,6 +36,4 @@ class TaskDashboardRouter: TaskDashboardRouterInput {
     func presentUserProfilModule() {
         
     }
-    
-
 }
