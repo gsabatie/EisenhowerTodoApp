@@ -39,7 +39,7 @@ extension LoginPresenter: LoginViewOutput {
 
 extension LoginPresenter :  LoginInteractorOutput {
     func didConnected(user: AppUser) {
-        // call route to dashboard view
+       router.presentTaskDashBoardModule()
     }
     
     func didFailSignin(withMessage: String) {

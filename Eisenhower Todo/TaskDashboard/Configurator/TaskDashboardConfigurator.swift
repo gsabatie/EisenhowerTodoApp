@@ -19,7 +19,6 @@ class TaskDashboardModuleConfigurator {
     }
 
     private func configure(viewController: TaskDashboardViewController) {
-        FirebaseApp.configure()
 
         let router = TaskDashboardRouter()
 
