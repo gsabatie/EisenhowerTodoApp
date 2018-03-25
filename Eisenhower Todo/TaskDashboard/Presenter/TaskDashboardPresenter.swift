@@ -50,7 +50,7 @@ extension TaskDashboardPresenter:TaskDashboardInteractorOutput {
     }
     
     func onFetchTaskFailure(message: String) {
-        
+        view.endDisplayLoading()
     }
     
     func onDeleteTaskSuccess() {
