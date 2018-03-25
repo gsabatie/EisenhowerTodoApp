@@ -14,6 +14,8 @@ enum TaskDocumentKey: String {
     case DueDate = "dueDate"
     case IsImportant = "isImportant"
     case IsUrgent = "isUrgent"
+    case ownerID = "ownerID"
+    case roles = "roles"
 }
 
 enum UserDocumentKey: String {
