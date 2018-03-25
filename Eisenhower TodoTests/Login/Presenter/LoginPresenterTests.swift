@@ -36,10 +36,30 @@ class LoginPresenterTest: XCTestCase {
     }
 
     class MockRouter: LoginRouterInput {
+        func presentSignInModule(fromViewController viewController: UIViewController) {
+            
+        }
+        
+        func presentTaskDashBoardModule() {
+            
+        }
+        
 
     }
 
     class MockViewController: LoginViewInput {
+        func getPassword() -> String? {
+            return ""
+        }
+        
+        func getEmail() -> String? {
+            return ""
+        }
+        
+        func displayError(message: String) {
+            
+        }
+        
 
         func setupInitialState() {
 
