@@ -8,20 +8,22 @@
 
 import Foundation
 
+let KNEWTASKID = "newtask"
+
 struct Role {
     var userID: String
-    var role:   String
+    var role: String
 }
 
 struct Task {
-    var id:                 String
-    var ownerID:            String
-    var name:               String
+    var id: String
+    var ownerID: String
+    var name: String
     var contentDescription: String
-    var rolesArray:         [Role]
-    var dueDate:            Date
-    var isImportant:        Bool
-    var isUrgent:           Bool
+    var rolesArray: [Role]
+    var dueDate: Date
+    var isImportant: Bool
+    var isUrgent: Bool
 
 }
 
@@ -29,7 +31,7 @@ protocol DictionaryInitiable {
     init(dictionary: [String: Any])
 }
 
-extension Task : DictionaryInitiable {
+extension Task: DictionaryInitiable {
     init(dictionary: [String: Any]) {
         self.id = ""
         self.name = ""
@@ -39,15 +41,14 @@ extension Task : DictionaryInitiable {
         self.isUrgent = false
         self.ownerID = ""
         self.rolesArray = [Role]()
-        
+
         if let name = dictionary[TaskDocumentKey.Name.rawValue] as? String,
-            let contentDescription = dictionary[TaskDocumentKey.Description.rawValue] as? String,
-            let dueDate = dictionary[TaskDocumentKey.DueDate.rawValue] as? Date,
-            let isImportant = dictionary[TaskDocumentKey.IsImportant.rawValue] as? Bool,
-            let isUrgent = dictionary[TaskDocumentKey.IsUrgent.rawValue] as? Bool,
-            let ownerID = dictionary[TaskDocumentKey.ownerID.rawValue] as? String,
-            let rolesArray = dictionary[TaskDocumentKey.roles.rawValue] as? [String: String]
-        {
+           let contentDescription = dictionary[TaskDocumentKey.Description.rawValue] as? String,
+           let dueDate = dictionary[TaskDocumentKey.DueDate.rawValue] as? Date,
+           let isImportant = dictionary[TaskDocumentKey.IsImportant.rawValue] as? Bool,
+           let isUrgent = dictionary[TaskDocumentKey.IsUrgent.rawValue] as? Bool,
+           let ownerID = dictionary[TaskDocumentKey.ownerID.rawValue] as? String,
+           let rolesArray = dictionary[TaskDocumentKey.roles.rawValue] as? [String: String] {
             self.name = name
             self.contentDescription = contentDescription
             self.dueDate = dueDate
@@ -57,8 +58,22 @@ extension Task : DictionaryInitiable {
             self.rolesArray = rolesArray.map({ (key, value) -> Role in
                 return Role(userID: key, role: value)
             })
-            
+
         }
-        
+
+    }
+}
+
+extension Task {
+    var propertyAsDictionary: [String: Any] {
+        var dataDictionary = [String: Any]()
+        dataDictionary[TaskDocumentKey.Name.rawValue] = self.name
+        dataDictionary[TaskDocumentKey.Description.rawValue] = contentDescription
+        dataDictionary[TaskDocumentKey.DueDate.rawValue] = dueDate
+        dataDictionary[TaskDocumentKey.IsImportant.rawValue] = isImportant
+        dataDictionary[TaskDocumentKey.IsUrgent.rawValue] = isUrgent
+        dataDictionary[TaskDocumentKey.ownerID.rawValue] = ownerID
+        dataDictionary[TaskDocumentKey.roles.rawValue] = rolesArray
+        return dataDictionary
     }
 }

@@ -94,6 +94,7 @@ PODS:
   - Nimble (7.0.3)
   - Protobuf (3.5.0)
   - Quick (1.2.0)
+  - TimePicker (0.0.4)
   - Windless (0.1.5)
 
 DEPENDENCIES:
@@ -105,6 +106,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - Nimble
   - Quick
+  - TimePicker
   - Windless (~> 0.1.5)
 
 SPEC CHECKSUMS:
@@ -129,8 +131,9 @@ SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  TimePicker: bfe0e888b76e0ca730b76e8547be9fad65f870d9
   Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
 
-PODFILE CHECKSUM: 183e4d496d9da8b835c5c72feca5544e66c0d048
+PODFILE CHECKSUM: a53a5254d96642ec312e26a098a1f8046d2a9bd0
 
 COCOAPODS: 1.4.0

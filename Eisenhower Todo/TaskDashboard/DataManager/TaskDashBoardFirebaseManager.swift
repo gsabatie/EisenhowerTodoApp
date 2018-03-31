@@ -18,7 +18,6 @@ class TaskDashboardFirebaseManager {
     let tasksCollectionRef : CollectionReference
     
     init() {
-        
         tasksCollectionRef = db.collection(CollectionDocumentKey.Task.rawValue)
     }
     

@@ -26,17 +26,24 @@
 		36A5BF432067DF5C0040ED5D /* UserCreationServiceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5BF422067DF5C0040ED5D /* UserCreationServiceInput.swift */; };
 		36A5BF452067DF690040ED5D /* UserCreationServiceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5BF442067DF690040ED5D /* UserCreationServiceOutput.swift */; };
 		36A5BF472067DF7D0040ED5D /* UserCreationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5BF462067DF7D0040ED5D /* UserCreationService.swift */; };
+		36A5BF4A206AF0A80040ED5D /* SaveTaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5BF49206AF0A80040ED5D /* SaveTaskService.swift */; };
+		36A5BF4C206AF0C00040ED5D /* SaveTaskServiceInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5BF4B206AF0C00040ED5D /* SaveTaskServiceInput.swift */; };
+		36A5BF4E206AF0D90040ED5D /* SaveTaskServiceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5BF4D206AF0D90040ED5D /* SaveTaskServiceOutput.swift */; };
 		36A90557205E9F33003DE982 /* AuthLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A90556205E9F33003DE982 /* AuthLoginService.swift */; };
 		36A90559205E9FCC003DE982 /* LoginAuthServicrInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A90558205E9FCC003DE982 /* LoginAuthServicrInput.swift */; };
 		36A9055B205E9FDE003DE982 /* LoginAuthServiceOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9055A205E9FDE003DE982 /* LoginAuthServiceOutput.swift */; };
 		36A9055D205EB582003DE982 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A9055C205EB582003DE982 /* User.swift */; };
+		3B3A267FF540BC2C3B474B4C /* AddTaskInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD23C2EE05599AF47D6C0F9 /* AddTaskInteractorInput.swift */; };
 		3DC02720678ED5A7EAC4EDEC /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16333E6CCFB055DB5B25E78D /* SignupViewController.swift */; };
 		4295A1813B49162C0BD5D783 /* SignupModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E45758799DD2F6FB504C966 /* SignupModuleInput.swift */; };
 		4361027F1D67D9A65250101F /* TaskDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD89D670248B4318F874EDB /* TaskDashboardViewController.swift */; };
 		479E4687C07F63ED782140B6 /* SignupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4195F6FEC552A8CF746D196 /* SignupRouter.swift */; };
+		4A6559536F714EF05210A9DB /* AddTaskRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4AD908D2AF85B4EB3CB797 /* AddTaskRouterTests.swift */; };
+		5189233E146F70D58A892B9A /* AddTaskInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4C5E8FAA17B795C629B392 /* AddTaskInteractorOutput.swift */; };
 		5281C0684C6C39F918DBD121 /* TaskDashboardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE902BEE41DE03349F07F8D /* TaskDashboardViewTests.swift */; };
 		573FCE6B99F597492BA1E311 /* SignupRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8261C41B7BCDDF1510D0D8E8 /* SignupRouterInput.swift */; };
 		596E8C77ED2818881CDD71DC /* TaskDashboardInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947F7ACFF6A2C2E20BB3BD /* TaskDashboardInteractorTests.swift */; };
+		5EBCF0EAD21B90EB0BEF46FD /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EDC088DDD84316F5F777A5 /* AddTaskViewController.swift */; };
 		666237EA9A715A29EB6C9241 /* TaskDashboardRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC13F215790E8127A80993 /* TaskDashboardRouterInput.swift */; };
 		6C8F049E943F72CF06A2F8B0 /* LoginInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884ECF09A5D9906E7A92CC39 /* LoginInitializer.swift */; };
 		6D292817C95E56B857F4C15E /* LoginConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620C87F753564AA71A949B6C /* LoginConfiguratorTests.swift */; };
@@ -46,15 +53,23 @@
 		750DC24DD02C9248AA99CE16 /* SignupConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA81C55E057C74E21E21858 /* SignupConfigurator.swift */; };
 		77F44403B9B6A76900F595E0 /* TaskDashboardInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FF3E020AB6CA83663ABC3 /* TaskDashboardInitializer.swift */; };
 		79EED124968726007AE027DF /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0175A28B69C1DAF7EB08516D /* LoginConfigurator.swift */; };
+		7D4FED8738893BDCE77FCA7F /* AddTaskViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC221CE702D1011A929C398 /* AddTaskViewTests.swift */; };
+		80DEACA6F527186E54039A82 /* AddTaskRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15395CF73ABB5379D5C02922 /* AddTaskRouterInput.swift */; };
 		88DB47F7E8B19DEAA1D13078 /* LoginRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39264A4520AD3955387D5F43 /* LoginRouterTests.swift */; };
 		8D14C2519ADEF01B88D388F9 /* LoginInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2EFF987E903B332821461 /* LoginInteractorTests.swift */; };
+		8F4C4BA3BE7144423DB513A2 /* AddTaskInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A34376962D40E0A39FB6A /* AddTaskInteractorTests.swift */; };
 		9065EBD756DBA552D9F650FA /* LoginInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CD0D18B3B82663097F791 /* LoginInteractorOutput.swift */; };
 		916A0206CF0D98F77B5DD179 /* TaskDashboardConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D0C3EDBADC16E5EE34FB0 /* TaskDashboardConfiguratorTests.swift */; };
 		992669CDABF2DA8E2E8B0C26 /* SignupPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330CCC0584E234FD2A497B6E /* SignupPresenterTests.swift */; };
+		9A1EE753CD32B32374717C0D /* AddTaskInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFDF30B43A22A6ED48EA07 /* AddTaskInteractor.swift */; };
 		9AA2396BEE81EF7CE680A30E /* Pods_Eisenhower_TodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF7142C6B32714778AFE699 /* Pods_Eisenhower_TodoTests.framework */; };
+		A8F0828F127A4927788E81BE /* AddTaskViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC8DD3054AD838F1C17C83D /* AddTaskViewOutput.swift */; };
 		AE2F9A0A8A3191007DDAADFC /* SignupViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D817FAC4A995721760B677 /* SignupViewInput.swift */; };
 		B11767E4984416E6467AB409 /* TaskDashboardInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E85D3289D9BD8ECEEEBB276 /* TaskDashboardInteractorInput.swift */; };
+		B1D201AFEDFE4565524842DC /* AddTaskRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65FC4631CD76C602FBE16BF /* AddTaskRouter.swift */; };
 		B6B72DEDE908ECFBB7CA1497 /* TaskDashboardRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926B71B71818D3CA15E39883 /* TaskDashboardRouterTests.swift */; };
+		B750AB33DC012727E0B1888E /* AddTaskModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7650563FFDCADF7E1F9122 /* AddTaskModuleInput.swift */; };
+		BA92A08D542ECAFAB81537C2 /* AddTaskConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C939ED32B95CE72BEB31FB4 /* AddTaskConfiguratorTests.swift */; };
 		C00E021A1CE10BBB3DCC6E51 /* TaskDashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93300641C8B9711EFBA61192 /* TaskDashboardRouter.swift */; };
 		C046B3402057020700128FEE /* DataManagerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046B33F2057020700128FEE /* DataManagerOutput.swift */; };
 		C046B34320586B3700128FEE /* TaskDashboardDataMangerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C046B34220586B3700128FEE /* TaskDashboardDataMangerInput.swift */; };
@@ -77,6 +92,7 @@
 		C0FDC7F4205586FD008A423A /* DataManagerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FDC7F3205586FD008A423A /* DataManagerInput.swift */; };
 		C175C751DAE57C87F16155B8 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9452CEC73768ED8B111FFDB4 /* LoginRouter.swift */; };
 		C303BD3D5098940CA892E0BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9851B3DF795A62E46AB3D4B7 /* LoginViewController.swift */; };
+		C34484736A37279D3F846FF9 /* AddTaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538F84780E38284D5820AEB /* AddTaskPresenter.swift */; };
 		C9A86A3C9B920090335F8F37 /* LoginInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE44520F66CEC8B9402FE507 /* LoginInteractorInput.swift */; };
 		CF1DEB269499FE4ACBD8CA35 /* TaskDashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1A11DFA7CFE02B4F0DD4F /* TaskDashboardPresenter.swift */; };
 		DCAF2B7A45D693418C7F96C9 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C0CA7A2CF4F67FDE937E0 /* LoginPresenter.swift */; };
@@ -84,9 +100,13 @@
 		E1D5FC809241E998CAAB5D30 /* SignupInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CADD73E6D0D5EC1E2247A23 /* SignupInteractorTests.swift */; };
 		E624AB307B8505DE5A122D9A /* LoginRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3E96C5D581509DFA233CC /* LoginRouterInput.swift */; };
 		E733286FBD9DA4D432D61931 /* Pods_Eisenhower_TodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D3630FF04A816E7C0D0BD8 /* Pods_Eisenhower_TodoUITests.framework */; };
+		E91C4F87FE55EEF997D5118A /* AddTaskConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4975F94961C720B4CE55C58 /* AddTaskConfigurator.swift */; };
+		EF8DFDBCB0A4586501BD532F /* AddTaskInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6329CE2D21D703475AE898 /* AddTaskInitializer.swift */; };
 		F25B5A89A5DC2453CDDC3039 /* SignupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73374FF9B97EF7A072C3961 /* SignupInteractor.swift */; };
 		F421F6A3BC1E2D71588FECDD /* SignupInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04312CEBFF8B8294E390BC55 /* SignupInitializer.swift */; };
 		F5EBD93F0FB3E855AB975C14 /* SignupViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF14F5B4CA130A1D97D9D93 /* SignupViewTests.swift */; };
+		FACBF894729544E880C16DF9 /* AddTaskViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB7A1C6637BB487C3BB9AF /* AddTaskViewInput.swift */; };
+		FFC6663624B44429B3D309B1 /* AddTaskPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5CA46223A02EFE5B90E978 /* AddTaskPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,23 +129,30 @@
 /* Begin PBXFileReference section */
 		0175A28B69C1DAF7EB08516D /* LoginConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
 		04312CEBFF8B8294E390BC55 /* SignupInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupInitializer.swift; sourceTree = "<group>"; };
+		050A34376962D40E0A39FB6A /* AddTaskInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskInteractorTests.swift; sourceTree = "<group>"; };
 		05D90160FEE0C34F5D7C3DF9 /* TaskDashboardConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardConfigurator.swift; sourceTree = "<group>"; };
 		0FE902BEE41DE03349F07F8D /* TaskDashboardViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardViewTests.swift; sourceTree = "<group>"; };
 		1443DED74D387FC48FC49FD4 /* LoginModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginModuleInput.swift; sourceTree = "<group>"; };
 		146F99E51207442702B2020D /* TaskDashboardPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardPresenterTests.swift; sourceTree = "<group>"; };
+		15395CF73ABB5379D5C02922 /* AddTaskRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskRouterInput.swift; sourceTree = "<group>"; };
 		15B5223ACCAF559B51C91C18 /* LoginPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginPresenterTests.swift; sourceTree = "<group>"; };
 		16333E6CCFB055DB5B25E78D /* SignupViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		17BB7A1C6637BB487C3BB9AF /* AddTaskViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskViewInput.swift; sourceTree = "<group>"; };
 		181FF3E020AB6CA83663ABC3 /* TaskDashboardInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInitializer.swift; sourceTree = "<group>"; };
 		20BCF623DC3BA22B240642C2 /* LoginViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewOutput.swift; sourceTree = "<group>"; };
 		21CB26D9A7C7E9700DC721F2 /* SignupRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupRouterTests.swift; sourceTree = "<group>"; };
 		27924A74D8C51D87795D9092 /* Pods-Eisenhower TodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoTests/Pods-Eisenhower TodoTests.release.xcconfig"; sourceTree = "<group>"; };
 		28D3630FF04A816E7C0D0BD8 /* Pods_Eisenhower_TodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eisenhower_TodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC221CE702D1011A929C398 /* AddTaskViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskViewTests.swift; sourceTree = "<group>"; };
 		2CADD73E6D0D5EC1E2247A23 /* SignupInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupInteractorTests.swift; sourceTree = "<group>"; };
 		2D03F90B344235E15064E5DF /* TaskDashboardViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardViewOutput.swift; sourceTree = "<group>"; };
 		330CCC0584E234FD2A497B6E /* SignupPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupPresenterTests.swift; sourceTree = "<group>"; };
 		36A5BF422067DF5C0040ED5D /* UserCreationServiceInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreationServiceInput.swift; sourceTree = "<group>"; };
 		36A5BF442067DF690040ED5D /* UserCreationServiceOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreationServiceOutput.swift; sourceTree = "<group>"; };
 		36A5BF462067DF7D0040ED5D /* UserCreationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreationService.swift; sourceTree = "<group>"; };
+		36A5BF49206AF0A80040ED5D /* SaveTaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTaskService.swift; sourceTree = "<group>"; };
+		36A5BF4B206AF0C00040ED5D /* SaveTaskServiceInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTaskServiceInput.swift; sourceTree = "<group>"; };
+		36A5BF4D206AF0D90040ED5D /* SaveTaskServiceOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTaskServiceOutput.swift; sourceTree = "<group>"; };
 		36A90556205E9F33003DE982 /* AuthLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthLoginService.swift; sourceTree = "<group>"; };
 		36A90558205E9FCC003DE982 /* LoginAuthServicrInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAuthServicrInput.swift; sourceTree = "<group>"; };
 		36A9055A205E9FDE003DE982 /* LoginAuthServiceOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAuthServiceOutput.swift; sourceTree = "<group>"; };
@@ -133,19 +160,26 @@
 		39264A4520AD3955387D5F43 /* LoginRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginRouterTests.swift; sourceTree = "<group>"; };
 		3BE1A11DFA7CFE02B4F0DD4F /* TaskDashboardPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardPresenter.swift; sourceTree = "<group>"; };
 		3E45758799DD2F6FB504C966 /* SignupModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupModuleInput.swift; sourceTree = "<group>"; };
+		4538F84780E38284D5820AEB /* AddTaskPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskPresenter.swift; sourceTree = "<group>"; };
 		46905326FF1D283FCD0E1378 /* TaskDashboardModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardModuleInput.swift; sourceTree = "<group>"; };
 		484A0A9318642242C38190A5 /* LoginInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		4AF14F5B4CA130A1D97D9D93 /* SignupViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupViewTests.swift; sourceTree = "<group>"; };
 		4C5CD0D18B3B82663097F791 /* LoginInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInteractorOutput.swift; sourceTree = "<group>"; };
 		4E85D3289D9BD8ECEEEBB276 /* TaskDashboardInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInteractorInput.swift; sourceTree = "<group>"; };
 		5BA2EFF987E903B332821461 /* LoginInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInteractorTests.swift; sourceTree = "<group>"; };
+		5C4AD908D2AF85B4EB3CB797 /* AddTaskRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskRouterTests.swift; sourceTree = "<group>"; };
+		5C4C5E8FAA17B795C629B392 /* AddTaskInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskInteractorOutput.swift; sourceTree = "<group>"; };
 		620C87F753564AA71A949B6C /* LoginConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginConfiguratorTests.swift; sourceTree = "<group>"; };
 		6AF7142C6B32714778AFE699 /* Pods_Eisenhower_TodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eisenhower_TodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7002ABBFEA49D4FCA040A3AF /* TaskDashboardInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInteractor.swift; sourceTree = "<group>"; };
 		712D0C3EDBADC16E5EE34FB0 /* TaskDashboardConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardConfiguratorTests.swift; sourceTree = "<group>"; };
+		72AFDF30B43A22A6ED48EA07 /* AddTaskInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskInteractor.swift; sourceTree = "<group>"; };
 		8261C41B7BCDDF1510D0D8E8 /* SignupRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupRouterInput.swift; sourceTree = "<group>"; };
 		884ECF09A5D9906E7A92CC39 /* LoginInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInitializer.swift; sourceTree = "<group>"; };
+		8C7650563FFDCADF7E1F9122 /* AddTaskModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskModuleInput.swift; sourceTree = "<group>"; };
+		8C939ED32B95CE72BEB31FB4 /* AddTaskConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskConfiguratorTests.swift; sourceTree = "<group>"; };
 		926B71B71818D3CA15E39883 /* TaskDashboardRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardRouterTests.swift; sourceTree = "<group>"; };
+		92EDC088DDD84316F5F777A5 /* AddTaskViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		93300641C8B9711EFBA61192 /* TaskDashboardRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardRouter.swift; sourceTree = "<group>"; };
 		93654EC32EC5F4B172BE01D1 /* Pods-Eisenhower TodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoTests/Pods-Eisenhower TodoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9452CEC73768ED8B111FFDB4 /* LoginRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
@@ -155,6 +189,7 @@
 		9ECB8456E097329C077ED5E1 /* SignupPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupPresenter.swift; sourceTree = "<group>"; };
 		A28C711FF3DA3846B3C6945A /* SignupInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupInteractorOutput.swift; sourceTree = "<group>"; };
 		A4195F6FEC552A8CF746D196 /* SignupRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupRouter.swift; sourceTree = "<group>"; };
+		A65FC4631CD76C602FBE16BF /* AddTaskRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskRouter.swift; sourceTree = "<group>"; };
 		AB6974C8C8FECCDB364B9B98 /* LoginViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewInput.swift; sourceTree = "<group>"; };
 		AE44520F66CEC8B9402FE507 /* LoginInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginInteractorInput.swift; sourceTree = "<group>"; };
 		B4F3E96C5D581509DFA233CC /* LoginRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginRouterInput.swift; sourceTree = "<group>"; };
@@ -185,9 +220,12 @@
 		C0D71655204019B500D52A57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C0FDC7F1205585B3008A423A /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
 		C0FDC7F3205586FD008A423A /* DataManagerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerInput.swift; sourceTree = "<group>"; };
+		C4975F94961C720B4CE55C58 /* AddTaskConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskConfigurator.swift; sourceTree = "<group>"; };
 		CCA81C55E057C74E21E21858 /* SignupConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupConfigurator.swift; sourceTree = "<group>"; };
+		CD6329CE2D21D703475AE898 /* AddTaskInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskInitializer.swift; sourceTree = "<group>"; };
 		D1AB21A18721C99F6E2FB208 /* Pods-Eisenhower TodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eisenhower TodoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D2947F7ACFF6A2C2E20BB3BD /* TaskDashboardInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInteractorTests.swift; sourceTree = "<group>"; };
+		DC5CA46223A02EFE5B90E978 /* AddTaskPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskPresenterTests.swift; sourceTree = "<group>"; };
 		DED38F66818F89D7BAB28571 /* Pods_Eisenhower_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eisenhower_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAF1EC3ABFECE4344A5F3B4 /* SignupConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupConfiguratorTests.swift; sourceTree = "<group>"; };
 		E7F498CA06ED67C0F7763DDC /* TaskDashboardInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDashboardInteractorOutput.swift; sourceTree = "<group>"; };
@@ -199,6 +237,8 @@
 		F9D817FAC4A995721760B677 /* SignupViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupViewInput.swift; sourceTree = "<group>"; };
 		FBF782D9B2A188C817A3D44C /* SignupInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupInteractorInput.swift; sourceTree = "<group>"; };
 		FD75C91E436F0F740224747E /* SignupViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignupViewOutput.swift; sourceTree = "<group>"; };
+		FDD23C2EE05599AF47D6C0F9 /* AddTaskInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskInteractorInput.swift; sourceTree = "<group>"; };
+		FFC8DD3054AD838F1C17C83D /* AddTaskViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddTaskViewOutput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +270,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021668587ACF65AAF9ED11A1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				15395CF73ABB5379D5C02922 /* AddTaskRouterInput.swift */,
+				A65FC4631CD76C602FBE16BF /* AddTaskRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		0B8CE41A3D743B6F3ADCBADD /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +365,15 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
+		23BE20BE90245EF66BA2F30C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8C7650563FFDCADF7E1F9122 /* AddTaskModuleInput.swift */,
+				4538F84780E38284D5820AEB /* AddTaskPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		2C386F64B5B1F8A9D075F93D /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +410,16 @@
 			path = DataManager;
 			sourceTree = "<group>";
 		};
+		36A5BF48206AF0890040ED5D /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				36A5BF49206AF0A80040ED5D /* SaveTaskService.swift */,
+				36A5BF4B206AF0C00040ED5D /* SaveTaskServiceInput.swift */,
+				36A5BF4D206AF0D90040ED5D /* SaveTaskServiceOutput.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
 		36A90555205E9EDC003DE982 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +428,14 @@
 				36A9055A205E9FDE003DE982 /* LoginAuthServiceOutput.swift */,
 			);
 			path = DataManager;
+			sourceTree = "<group>";
+		};
+		3A1063A6196BC333392F5640 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AC221CE702D1011A929C398 /* AddTaskViewTests.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		3AFBF132550AF8A0E3B0D6A7 /* TaskDashboard */ = {
@@ -373,6 +449,24 @@
 				18D4EBE4EAB61A7381B96BD2 /* Configurator */,
 			);
 			path = TaskDashboard;
+			sourceTree = "<group>";
+		};
+		3B6921094CCC2ADE56884B14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				050A34376962D40E0A39FB6A /* AddTaskInteractorTests.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4AA9D63AA819F50262F2106A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FDD23C2EE05599AF47D6C0F9 /* AddTaskInteractorInput.swift */,
+				5C4C5E8FAA17B795C629B392 /* AddTaskInteractorOutput.swift */,
+				72AFDF30B43A22A6ED48EA07 /* AddTaskInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		5313FDD5CEAD7EA1606337F1 /* View */ = {
@@ -424,6 +518,16 @@
 				93300641C8B9711EFBA61192 /* TaskDashboardRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		6687C35E8901AE599D6FD480 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17BB7A1C6637BB487C3BB9AF /* AddTaskViewInput.swift */,
+				FFC8DD3054AD838F1C17C83D /* AddTaskViewOutput.swift */,
+				92EDC088DDD84316F5F777A5 /* AddTaskViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		66E6BE7FA0AA77750B110B15 /* Interactor */ = {
@@ -514,12 +618,45 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A5B0D504867A66A4E23C1F64 /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				CEE925A2BF6B01C9C72B24D7 /* Configurator */,
+				3A1063A6196BC333392F5640 /* View */,
+				3B6921094CCC2ADE56884B14 /* Interactor */,
+				F945CAE09455D05F069B5C34 /* Presenter */,
+				ADBCC7194F21D52B608ECA2B /* Router */,
+			);
+			path = AddTask;
+			sourceTree = "<group>";
+		};
+		ADBCC7194F21D52B608ECA2B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5C4AD908D2AF85B4EB3CB797 /* AddTaskRouterTests.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		AE0C7E6BAA8D3A2241896CA1 /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
 				620C87F753564AA71A949B6C /* LoginConfiguratorTests.swift */,
 			);
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		BB268C3761D9E39CAC40EB8B /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				36A5BF48206AF0890040ED5D /* DataManager */,
+				6687C35E8901AE599D6FD480 /* View */,
+				23BE20BE90245EF66BA2F30C /* Presenter */,
+				4AA9D63AA819F50262F2106A /* Interactor */,
+				021668587ACF65AAF9ED11A1 /* Router */,
+				E83A86512F8EDB67CF880CFB /* Configurator */,
+			);
+			path = AddTask;
 			sourceTree = "<group>";
 		};
 		BD507283313C320C7C1BD526 /* Pods */ = {
@@ -599,6 +736,7 @@
 				C0A0F5AC2059C728000979FC /* Constant.swift */,
 				E972A08432EFD167D34BB3D5 /* Login */,
 				795435462BF2A819142140F4 /* Signup */,
+				BB268C3761D9E39CAC40EB8B /* AddTask */,
 			);
 			path = "Eisenhower Todo";
 			sourceTree = "<group>";
@@ -612,6 +750,7 @@
 				0E04C9E5BE3912A6616F8FCA /* TaskDashboard */,
 				D4CC3CC8D4D56BDE3A741FA0 /* Login */,
 				624CBDF9D8BD7BFA66B9CA3C /* Signup */,
+				A5B0D504867A66A4E23C1F64 /* AddTask */,
 			);
 			path = "Eisenhower TodoTests";
 			sourceTree = "<group>";
@@ -641,6 +780,14 @@
 				4AF14F5B4CA130A1D97D9D93 /* SignupViewTests.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CEE925A2BF6B01C9C72B24D7 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				8C939ED32B95CE72BEB31FB4 /* AddTaskConfiguratorTests.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 		D4CC3CC8D4D56BDE3A741FA0 /* Login */ = {
@@ -682,6 +829,15 @@
 			path = Configurator;
 			sourceTree = "<group>";
 		};
+		E83A86512F8EDB67CF880CFB /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				C4975F94961C720B4CE55C58 /* AddTaskConfigurator.swift */,
+				CD6329CE2D21D703475AE898 /* AddTaskInitializer.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 		E972A08432EFD167D34BB3D5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -710,6 +866,14 @@
 				04312CEBFF8B8294E390BC55 /* SignupInitializer.swift */,
 			);
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		F945CAE09455D05F069B5C34 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC5CA46223A02EFE5B90E978 /* AddTaskPresenterTests.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -894,6 +1058,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/TimePicker/TimePicker.framework",
 				"${BUILT_PRODUCTS_DIR}/Windless/Windless.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
@@ -908,6 +1073,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TimePicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Windless.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
@@ -1042,6 +1208,7 @@
 				C0A0F5AB2059BE98000979FC /* TaskDashBoardFirebaseManager.swift in Sources */,
 				03C6335D16DBE5B72DA6DAE2 /* TaskDashboardViewOutput.swift in Sources */,
 				C0A0BCD420447FF500BBFC14 /* TaskCollectionViewCell.swift in Sources */,
+				36A5BF4A206AF0A80040ED5D /* SaveTaskService.swift in Sources */,
 				4361027F1D67D9A65250101F /* TaskDashboardViewController.swift in Sources */,
 				36A5BF432067DF5C0040ED5D /* UserCreationServiceInput.swift in Sources */,
 				1CFCDE7B47236877AED10A54 /* TaskDashboardModuleInput.swift in Sources */,
@@ -1090,6 +1257,20 @@
 				479E4687C07F63ED782140B6 /* SignupRouter.swift in Sources */,
 				750DC24DD02C9248AA99CE16 /* SignupConfigurator.swift in Sources */,
 				F421F6A3BC1E2D71588FECDD /* SignupInitializer.swift in Sources */,
+				FACBF894729544E880C16DF9 /* AddTaskViewInput.swift in Sources */,
+				A8F0828F127A4927788E81BE /* AddTaskViewOutput.swift in Sources */,
+				5EBCF0EAD21B90EB0BEF46FD /* AddTaskViewController.swift in Sources */,
+				B750AB33DC012727E0B1888E /* AddTaskModuleInput.swift in Sources */,
+				C34484736A37279D3F846FF9 /* AddTaskPresenter.swift in Sources */,
+				3B3A267FF540BC2C3B474B4C /* AddTaskInteractorInput.swift in Sources */,
+				5189233E146F70D58A892B9A /* AddTaskInteractorOutput.swift in Sources */,
+				9A1EE753CD32B32374717C0D /* AddTaskInteractor.swift in Sources */,
+				36A5BF4E206AF0D90040ED5D /* SaveTaskServiceOutput.swift in Sources */,
+				36A5BF4C206AF0C00040ED5D /* SaveTaskServiceInput.swift in Sources */,
+				80DEACA6F527186E54039A82 /* AddTaskRouterInput.swift in Sources */,
+				B1D201AFEDFE4565524842DC /* AddTaskRouter.swift in Sources */,
+				E91C4F87FE55EEF997D5118A /* AddTaskConfigurator.swift in Sources */,
+				EF8DFDBCB0A4586501BD532F /* AddTaskInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,6 +1295,11 @@
 				E1D5FC809241E998CAAB5D30 /* SignupInteractorTests.swift in Sources */,
 				992669CDABF2DA8E2E8B0C26 /* SignupPresenterTests.swift in Sources */,
 				0B491A43D7239588DC2E91B1 /* SignupRouterTests.swift in Sources */,
+				BA92A08D542ECAFAB81537C2 /* AddTaskConfiguratorTests.swift in Sources */,
+				7D4FED8738893BDCE77FCA7F /* AddTaskViewTests.swift in Sources */,
+				8F4C4BA3BE7144423DB513A2 /* AddTaskInteractorTests.swift in Sources */,
+				FFC6663624B44429B3D309B1 /* AddTaskPresenterTests.swift in Sources */,
+				4A6559536F714EF05210A9DB /* AddTaskRouterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
