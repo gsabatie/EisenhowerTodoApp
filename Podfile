@@ -15,7 +15,8 @@ target 'Eisenhower Todo' do
   pod 'Firebase/Storage'
   pod 'Firebase/Firestore'
   pod 'Windless', '~> 0.1.5'
-  pod 'AppCenter'  
+  pod 'AppCenter'
+  pod 'TimePicker'
   target 'Eisenhower TodoTests' do
     inherit! :search_paths
     testing_pods
