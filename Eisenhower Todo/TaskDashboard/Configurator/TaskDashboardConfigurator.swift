@@ -21,6 +21,9 @@ class TaskDashboardModuleConfigurator {
     private func configure(viewController: TaskDashboardViewController) {
 
         let router = TaskDashboardRouter()
+        router.addTaskRouter = AddTaskRouter()
+        router.profileTaskRouter = SignupRouter()
+        router.viewController = viewController
 
         let presenter = TaskDashboardPresenter()
         presenter.view = viewController

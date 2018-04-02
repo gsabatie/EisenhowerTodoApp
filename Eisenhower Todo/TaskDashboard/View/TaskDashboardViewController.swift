@@ -45,6 +45,13 @@ class TaskDashboardViewController: UIViewController, TaskDashboardViewInput{
         self.taskCollectionView.reloadInputViews()
     }
     
+    @IBAction func AddButtonDidTouched(_ sender: Any) {
+        output.onAddButtonTouched()
+    }
+
+    @IBAction func profilePictureButtonDidTouch(_ sender: Any) {
+        output.onProfileButtonTouched()
+    }
     
     
     // MARK: TaskDashboardViewInput

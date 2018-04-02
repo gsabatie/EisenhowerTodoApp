@@ -12,5 +12,6 @@ import UIKit
 protocol LoginRouterInput {
     func presentSignInModule(fromViewController viewController: UIViewController) 
     func presentTaskDashBoardModule()
+    func presentSignupModule()
 
 }

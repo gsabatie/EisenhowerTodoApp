@@ -28,7 +28,7 @@ extension TaskDashboardPresenter: TaskDashboardViewOutput {
     }
     
     func onAddButtonTouched() {
-        
+        router.presentAddTaskModule()
     }
     
     func onCollectionViewItemSwiped() {
@@ -38,7 +38,10 @@ extension TaskDashboardPresenter: TaskDashboardViewOutput {
     func onCollectionViewItemSelected() {
         
     }
-    
+
+    func onProfileButtonTouched() {
+        router.presentUserProfilModule()
+    }
     
 }
 
@@ -60,6 +63,6 @@ extension TaskDashboardPresenter:TaskDashboardInteractorOutput {
     func onDeleteTaskFailure(message: String) {
         
     }
-    
-    
+
+
 }

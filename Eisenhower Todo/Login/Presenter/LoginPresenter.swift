@@ -31,7 +31,7 @@ extension LoginPresenter: LoginViewOutput {
     }
     
     func signinButtonDidTouched() {
-        // call route to signup view
+        router.presentSignupModule()
     }
     
     

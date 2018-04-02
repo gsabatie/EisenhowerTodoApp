@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="itD-Fx-zFY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wzl-HS-Glh">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gok-Uu-vJj">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <rect key="frame" x="16" y="64" width="343" height="603"/>
                                 <color key="backgroundColor" red="0.50196078430000002" green="0.79215686269999996" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="8" id="loE-0d-Y2t">
                                     <size key="itemSize" width="165" height="74"/>
@@ -36,18 +36,20 @@
                                             <rect key="frame" x="0.0" y="0.0" width="165" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AddTask" translatesAutoresizingMaskIntoConstraints="NO" id="yQ3-qS-coQ">
-                                                    <rect key="frame" x="32" y="16" width="101" height="42"/>
-                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgf-Ac-fcl">
+                                                    <rect key="frame" x="16" y="16" width="133" height="42"/>
+                                                    <state key="normal" image="AddTask"/>
+                                                    <connections>
+                                                        <action selector="AddButtonDidTouched:" destination="beC-fc-QzS" eventType="touchUpInside" id="hZP-Um-Bll"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="yQ3-qS-coQ" firstAttribute="top" secondItem="IPX-uz-h6o" secondAttribute="topMargin" constant="8" id="37g-om-6Aa"/>
-                                            <constraint firstItem="yQ3-qS-coQ" firstAttribute="centerY" secondItem="IPX-uz-h6o" secondAttribute="centerY" id="CET-qB-Dqe"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="yQ3-qS-coQ" secondAttribute="trailing" constant="24" id="MXt-MU-LzI"/>
-                                            <constraint firstItem="yQ3-qS-coQ" firstAttribute="leading" secondItem="IPX-uz-h6o" secondAttribute="leadingMargin" constant="24" id="R6u-PF-tcP"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="yQ3-qS-coQ" secondAttribute="bottom" constant="8" id="bvd-WI-SLN"/>
-                                            <constraint firstItem="yQ3-qS-coQ" firstAttribute="centerX" secondItem="IPX-uz-h6o" secondAttribute="centerX" id="vu0-2A-DLz"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Cgf-Ac-fcl" secondAttribute="trailing" constant="8" id="1G5-LR-Mio"/>
+                                            <constraint firstItem="Cgf-Ac-fcl" firstAttribute="top" secondItem="IPX-uz-h6o" secondAttribute="topMargin" constant="8" id="6WC-gB-8dc"/>
+                                            <constraint firstItem="Cgf-Ac-fcl" firstAttribute="leading" secondItem="IPX-uz-h6o" secondAttribute="leadingMargin" constant="8" id="JnW-5T-aqS"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="Cgf-Ac-fcl" secondAttribute="bottom" constant="8" id="WLG-Oj-PsD"/>
                                         </constraints>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TaskC" id="uBn-y7-qcz" customClass="TaskCollectionViewCell" customModule="Eisenhower_Todo" customModuleProvider="target">
@@ -120,6 +122,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tfz-0G-Mmv"/>
                     </view>
+                    <navigationItem key="navigationItem" id="XV5-O6-HzP">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="ProfileIcon" id="VNe-o7-b6q">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="profilePictureButtonDidTouch:" destination="beC-fc-QzS" id="xzA-8u-7HD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="taskCollectionView" destination="gok-Uu-vJj" id="bly-hv-CuW"/>
                     </connections>
@@ -131,7 +141,46 @@
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="152.80000000000001" y="55.322338830584712"/>
+            <point key="canvasLocation" x="1352.8" y="-784.85757121439292"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pdS-gM-RJf">
+            <objects>
+                <navigationController storyboardIdentifier="loginNC" id="Wzl-HS-Glh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gYt-g1-avn">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.50196078430000002" green="0.79215686269999996" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="t80-1N-ywE" kind="relationship" relationship="rootViewController" id="zWf-24-2TB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rVq-cr-7Ye" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-879" y="-45"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vfc-ee-YKL">
+            <objects>
+                <navigationController storyboardIdentifier="mainNC" id="toI-ej-QhX" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z4N-bO-UpL">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="beC-fc-QzS" kind="relationship" relationship="rootViewController" id="hQj-Sx-n03"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RaS-OX-Up5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="-864"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="3YV-b9-Uf5">
@@ -142,7 +191,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="FE5-Sd-M8b">
-                                <rect key="frame" x="32" y="120" width="311" height="142"/>
+                                <rect key="frame" x="32" y="164" width="311" height="142"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aaB-m5-9Na">
                                         <rect key="frame" x="0.0" y="0.0" width="311" height="42"/>
@@ -190,7 +239,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sU1-mZ-SQ0">
-                                <rect key="frame" x="137.5" y="327" width="100" height="36"/>
+                                <rect key="frame" x="137.5" y="371" width="100" height="36"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.90980392160000001" blue="0.10980392160000001" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="6uo-Sm-O6x"/>
@@ -200,7 +249,7 @@
                                 <color key="tintColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Sign In"/>
                                 <connections>
-                                    <segue destination="w6q-cU-m51" kind="showDetail" id="DnD-WR-aGa"/>
+                                    <action selector="signInButtonDidTouched:" destination="t80-1N-ywE" eventType="touchUpInside" id="7nE-fL-chA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -215,6 +264,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wsu-Cx-IWa"/>
                     </view>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="zEy-xl-cSr"/>
                     <connections>
                         <outlet property="LoginButton" destination="c66-1H-UX1" id="WSM-cI-XRo"/>
                         <outlet property="emailTextField" destination="aaB-m5-9Na" id="GmR-Pb-Dkv"/>
@@ -229,12 +279,12 @@
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="1112.8" y="-17.541229385307346"/>
+            <point key="canvasLocation" x="273" y="-18"/>
         </scene>
         <!--Signup View Controller-->
         <scene sceneID="0M8-xd-0nN">
             <objects>
-                <viewController id="w6q-cU-m51" customClass="SignupViewController" customModule="Eisenhower_Todo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="signupVC" id="w6q-cU-m51" customClass="SignupViewController" customModule="Eisenhower_Todo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j9Q-hV-RX9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -333,6 +383,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kvG-s2-z4Q"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <connections>
                         <outlet property="confirmPasswordTextField" destination="aOa-Bs-J1I" id="T70-ff-2E4"/>
                         <outlet property="emailTextField" destination="trW-5b-3Ko" id="Yxk-15-Ktf"/>
@@ -348,12 +399,12 @@
                     </connections>
                 </customObject>
             </objects>
-            <point key="canvasLocation" x="2007" y="-18"/>
+            <point key="canvasLocation" x="1322" y="-1"/>
         </scene>
         <!--Addtask View Controller-->
         <scene sceneID="cp1-Nn-q9u">
             <objects>
-                <viewController id="itD-Fx-zFY" customClass="AddTaskViewController" customModule="Eisenhower_Todo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="addTaskVC" id="itD-Fx-zFY" customClass="AddTaskViewController" customModule="Eisenhower_Todo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5Sw-bi-ajY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -509,6 +560,7 @@
     <resources>
         <image name="AddTask" width="49" height="49"/>
         <image name="ImportantIcon" width="36" height="37"/>
+        <image name="ProfileIcon" width="31" height="31"/>
         <image name="UrgentIcon" width="21" height="19"/>
     </resources>
 </document>

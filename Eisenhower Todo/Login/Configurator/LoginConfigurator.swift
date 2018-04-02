@@ -23,6 +23,7 @@ class LoginModuleConfigurator {
         
         let router = LoginRouter()
         router.tasksDashBoardRoute = TaskDashboardRouter()
+        router.signupRoute = SignupRouter()
         router.viewController = viewController
 
         let presenter = LoginPresenter()

@@ -29,7 +29,7 @@ class LoginViewController: UIViewController  {
     }
 
     @IBAction func signInButtonDidTouched(_ sender: Any) {
-        output.loginButtonDidTouched()
+        output.signinButtonDidTouched()
     }
     @IBAction func loginButtonDidTouched(_ sender: UIButton) {
         output.loginButtonDidTouched()

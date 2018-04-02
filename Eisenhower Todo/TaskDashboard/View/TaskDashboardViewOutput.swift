@@ -17,7 +17,8 @@ protocol TaskDashboardViewOutput {
     
     func onAddButtonTouched()
     
-    
+    func onProfileButtonTouched()
+
     func onCollectionViewItemSwiped()
     
     func onCollectionViewItemSelected()

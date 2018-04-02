@@ -8,32 +8,40 @@
 import UIKit
 
 let kTaskDashboardViewController = "taskDashBoardVC"
+let kMainNavigationController = "mainNC"
 
 class TaskDashboardRouter{
     
 
     var viewController: TaskDashboardViewController!
+    var addTaskRouter: AddTaskRouter!
+    var profileTaskRouter: SignupRouter!
     
     func taskDashboardViewControllerFromStoryboard()-> TaskDashboardViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         let viewController = storyboard.instantiateViewController(withIdentifier: kTaskDashboardViewController) as! TaskDashboardViewController
         return viewController
     }
- 
+
+    func mainNavigationControllerFromStoryboard()-> UINavigationController {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let navigationController = storyboard.instantiateViewController(withIdentifier: kMainNavigationController) as! UINavigationController
+        return navigationController
+    }
 
 }
 
 extension TaskDashboardRouter :TaskDashboardRouterInput {
     
     func presentTaskDashBoardModule(fromViewController viewController: UIViewController) {
-        viewController.present(taskDashboardViewControllerFromStoryboard(), animated: true, completion: nil)
+        viewController.present(mainNavigationControllerFromStoryboard(), animated: true)
     }
     
     func presentAddTaskModule() {
-        
+        addTaskRouter.presentAddTaskModule(fromViewController: viewController)
     }
     
     func presentUserProfilModule() {
-        
+        profileTaskRouter.present(from: viewController)
     }
 }

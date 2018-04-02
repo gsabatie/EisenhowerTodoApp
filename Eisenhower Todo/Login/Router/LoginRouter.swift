@@ -13,6 +13,7 @@ class LoginRouter{
   
     
     var tasksDashBoardRoute :TaskDashboardRouterInput!
+     var signupRoute :SignupRouter!
     
     var viewController: LoginViewController!
     
@@ -27,7 +28,9 @@ class LoginRouter{
 extension LoginRouter  : LoginRouterInput {
 
     func presentSignInModule(fromViewController viewController: UIViewController) {
-        viewController.present(loginViewControllerFromStoryboard(), animated: true, completion: nil)
+    }
+    func presentSignupModule() {
+        signupRoute.present(from: viewController)
     }
     
     func presentTaskDashBoardModule() {
