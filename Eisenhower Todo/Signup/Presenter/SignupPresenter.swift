@@ -15,7 +15,9 @@ class SignupPresenter{
 }
 
 extension SignupPresenter :  SignupModuleInput{
-    
+    func setEditUserStyle() {
+         interactor.getCurrentUser()
+    }
 }
 
 
@@ -32,20 +34,32 @@ extension SignupPresenter :  SignupViewOutput{
     }
     
     func viewIsReady() {
-        
+        interactor.getCurrentUser()
     }
-    
-    
+
+    func logoutButtonDidTouch() {
+        interactor.logoutCurrentUser()
+    }
 }
 
 extension SignupPresenter :  SignupInteractorOutput{
+    func current(userSigned: AppUser) {
+        view.setupInitialState(with: userSigned)
+    }
+    
     func createUserDidSucceed() {
-       router.pushToTasksDashboard()
+        router.pushToTasksDashboard()
     }
     
     func createUserDidFailed(message: String) {
         view.displaySignupError(message: message)
     }
-    
-    
+
+    func signoutUserDidSucceed() {
+        router.presentLoginModule()
+    }
+
+    func signoutUserDidFailed(with message: String) {
+        view.displaySignupError(message: message)
+    }
 }

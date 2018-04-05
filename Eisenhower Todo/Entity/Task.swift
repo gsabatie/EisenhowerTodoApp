@@ -43,24 +43,17 @@ extension Task: DictionaryInitiable {
         self.rolesArray = [Role]()
 
         if let name = dictionary[TaskDocumentKey.Name.rawValue] as? String,
-           let contentDescription = dictionary[TaskDocumentKey.Description.rawValue] as? String,
            let dueDate = dictionary[TaskDocumentKey.DueDate.rawValue] as? Date,
            let isImportant = dictionary[TaskDocumentKey.IsImportant.rawValue] as? Bool,
-           let isUrgent = dictionary[TaskDocumentKey.IsUrgent.rawValue] as? Bool,
-           let ownerID = dictionary[TaskDocumentKey.ownerID.rawValue] as? String,
-           let rolesArray = dictionary[TaskDocumentKey.roles.rawValue] as? [String: String] {
+           let isUrgent = dictionary[TaskDocumentKey.IsUrgent.rawValue] as? Bool {
             self.name = name
-            self.contentDescription = contentDescription
             self.dueDate = dueDate
             self.isImportant = isImportant
             self.isUrgent = isUrgent
-            self.ownerID = ownerID
-            self.rolesArray = rolesArray.map({ (key, value) -> Role in
-                return Role(userID: key, role: value)
-            })
-
         }
-
+        if let description = dictionary[TaskDocumentKey.Description.rawValue] as? String {
+            self.contentDescription = description
+        }
     }
 }
 

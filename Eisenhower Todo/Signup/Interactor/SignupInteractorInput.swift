@@ -10,4 +10,6 @@ import Foundation
 
 protocol SignupInteractorInput {
     func create(user: AppUser, withPassword password: String)
+    func getCurrentUser()
+    func logoutCurrentUser()
 }

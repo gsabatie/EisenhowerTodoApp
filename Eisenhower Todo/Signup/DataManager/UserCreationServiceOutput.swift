@@ -11,4 +11,7 @@ import Foundation
 protocol UserCreationServiceOutput: class {
     func createUserDidFailed(message: String)
     func createUserDidSucceed()
+    func currentSignedUser(user: AppUser?)
+    func signoutUserDidSuccess()
+    func signoutUserDidFail(with message: String)
 }

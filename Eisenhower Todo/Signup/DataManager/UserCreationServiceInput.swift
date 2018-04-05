@@ -9,5 +9,7 @@
 import Foundation
 
 protocol UserCreationServiceInput {
-    func createUser(username: String, email:String, password: String, description: String?)
+    func createUser(username: String, email: String, password: String, description: String?)
+    func getSignedUser()
+    func logoutSignedUser()
 }

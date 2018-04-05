@@ -12,7 +12,7 @@ protocol TaskDashboardInteractorInput {
 
     func findAllTask()
 
-    func delete(task:Task)
-    
-    
+    func delete(task: Task)
+
+
 }

@@ -9,27 +9,27 @@
 import Foundation
 import Firebase
 
-struct FireBaseManager : DataManagerInput{
+struct FireBaseManager: DataManagerInput {
 
     private let store = Firestore.firestore()
-    
-    
+
+
     func findAllTask() {
-        
+
     }
-    
-    
+
+
     func getAllTask() -> [Task] {
         return [Task]()
     }
-    
+
     func deleteTask(taskID: String) {
-        
+
     }
-    
+
     func add(task: Task) {
-        
+
     }
-    
-    
+
+
 }

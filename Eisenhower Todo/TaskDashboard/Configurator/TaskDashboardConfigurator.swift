@@ -21,6 +21,9 @@ class TaskDashboardModuleConfigurator {
     private func configure(viewController: TaskDashboardViewController) {
 
         let router = TaskDashboardRouter()
+        router.addTaskRouter = AddTaskRouter()
+        router.profileTaskRouter = SignupRouter()
+        router.viewController = viewController
 
         let presenter = TaskDashboardPresenter()
         presenter.view = viewController
@@ -31,7 +34,7 @@ class TaskDashboardModuleConfigurator {
 
         let firebaseDatasource = TaskDashboardFirebaseManager()
         firebaseDatasource.output = interactor
-        
+
         interactor.dataSource = firebaseDatasource
         presenter.interactor = interactor
         viewController.output = presenter

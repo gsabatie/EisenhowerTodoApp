@@ -12,20 +12,20 @@ import Firebase
 
 class TaskDashboardFirebaseManager {
 
-    weak var output :TaskDashboardDataManagerOutput!
+    weak var output: TaskDashboardDataManagerOutput!
     let db = Firestore.firestore()
-    
-    let tasksCollectionRef : CollectionReference
-    
+
+    let tasksCollectionRef: CollectionReference
+
     init() {
         tasksCollectionRef = db.collection(CollectionDocumentKey.Task.rawValue)
     }
-    
-    
-    func getAllTaskDocuments(completion : @escaping (_ documents : [QueryDocumentSnapshot]?, _ err : Error?) -> Void) {
-        tasksCollectionRef.getDocuments(completion: {querySnapshot, err  in
+
+
+    func getAllTaskDocuments(completion: @escaping (_ documents: [QueryDocumentSnapshot]?, _ err: Error?) -> Void) {
+        tasksCollectionRef.getDocuments(completion: { querySnapshot, err in
             if let err = err {
-                completion( nil,err)
+                completion(nil, err)
             } else {
                 completion(querySnapshot!.documents, nil)
             }
@@ -33,7 +33,7 @@ class TaskDashboardFirebaseManager {
     }
 }
 
-extension TaskDashboardFirebaseManager : TaskDashboardDataManagerInput {
+extension TaskDashboardFirebaseManager: TaskDashboardDataManagerInput {
     func getTasks() {
         getAllTaskDocuments { (documents, err) in
             if let err = err {
@@ -49,7 +49,7 @@ extension TaskDashboardFirebaseManager : TaskDashboardDataManagerInput {
             }
         }
     }
-    
+
     func deleteTask(id: String) {
         tasksCollectionRef.document(id).delete() { err in
             if let err = err {
@@ -60,6 +60,6 @@ extension TaskDashboardFirebaseManager : TaskDashboardDataManagerInput {
 
         }
     }
-    
-    
+
+
 }

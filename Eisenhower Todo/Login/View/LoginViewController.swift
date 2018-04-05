@@ -8,15 +8,16 @@
 
 import UIKit
 
-class LoginViewController: UIViewController  {
+class LoginViewController: UIViewController {
 
     var output: LoginViewOutput!
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    
+
     @IBOutlet weak var LoginButton: UIButton!
     @IBOutlet weak var signInButton: UIButton!
+
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,14 +30,15 @@ class LoginViewController: UIViewController  {
     }
 
     @IBAction func signInButtonDidTouched(_ sender: Any) {
-        output.loginButtonDidTouched()
+        output.signinButtonDidTouched()
     }
+
     @IBAction func loginButtonDidTouched(_ sender: UIButton) {
         output.loginButtonDidTouched()
     }
 }
 
-extension LoginViewController : LoginViewInput {
+extension LoginViewController: LoginViewInput {
     func displayError(message: String) {
         let allertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
         let dissmisAction = UIAlertAction(title: "Ok", style: .cancel) { (action) in
@@ -45,16 +47,14 @@ extension LoginViewController : LoginViewInput {
         allertController.addAction(dissmisAction)
         self.present(allertController, animated: true, completion: nil)
     }
-    
+
     func getPassword() -> String? {
-         return passwordTextField.text
+        return passwordTextField.text
     }
-    
+
     func getEmail() -> String? {
-         return emailTextField.text
+        return emailTextField.text
     }
-    
-    
-   
-    
+
+
 }

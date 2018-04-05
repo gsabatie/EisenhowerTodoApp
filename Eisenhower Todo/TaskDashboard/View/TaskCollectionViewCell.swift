@@ -55,7 +55,7 @@ extension TaskCollectionViewCell : TaskCollectionViewCellInput {
 extension Date {
     func humanReadableString() -> String{
         let formatter = DateFormatter()
-        formatter.dateFormat = "dd/MM/yyyy"
+        formatter.dateFormat = "MM/dd/yyyy"
         return formatter.string(from: self)
     }
 }

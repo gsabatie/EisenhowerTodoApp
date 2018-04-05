@@ -20,9 +20,9 @@ class SignupModuleConfigurator {
     private func configure(viewController: SignupViewController) {
 
         let router = SignupRouter()
-        
+
         let userService = UserService()
-       
+
 
         let presenter = SignupPresenter()
         presenter.view = viewController
@@ -31,12 +31,13 @@ class SignupModuleConfigurator {
         let interactor = SignupInteractor()
         interactor.output = presenter
         interactor.userService = userService
-        
+
         userService.output = interactor
         presenter.interactor = interactor
         viewController.output = presenter
         router.viewController = viewController
         router.tasksDashBoardRoute = TaskDashboardRouter()
+        router.loginRouter = LoginRouter()
     }
 
 }
