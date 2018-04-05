@@ -10,11 +10,11 @@ import Foundation
 
 
 protocol DataManagerOutput: class {
-    func foundAllTask(task:[Task])
-    
-    func getAllTask() ->[Task]
-    
-    func deleted(taskID:String)
-    
-    func added(task:Task)
+    func foundAllTask(task: [Task])
+
+    func getAllTask() -> [Task]
+
+    func deleted(taskID: String)
+
+    func added(task: Task)
 }

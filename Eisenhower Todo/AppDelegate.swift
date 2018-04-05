@@ -12,6 +12,7 @@ import FirebaseAuth
 import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var taskDashboardRouter = TaskDashboardRouter()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        IQKeyboardManager.sharedManager().enable = true
         FirebaseApp.configure()
         MSAppCenter.start("53b160dd-ce66-4091-a429-20b2d340ea06", withServices:[ MSAnalytics.self, MSCrashes.self ])
         if Auth.auth().currentUser != nil {

@@ -44,6 +44,10 @@ class TaskDashboardPresenterTest: XCTestCase {
     }
 
     class MockRouter: TaskDashboardRouterInput {
+        func popToTaskDashBoardModule(fromViewController viewController: UIViewController) {
+            
+        }
+        
         func presentTaskDashBoardModule(fromViewController viewController: UIViewController) {
             
         }

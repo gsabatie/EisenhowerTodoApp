@@ -7,7 +7,7 @@
 //
 
 class LoginPresenter: LoginModuleInput {
-  
+
 
     weak var view: LoginViewInput!
     var interactor: LoginInteractorInput!
@@ -20,30 +20,30 @@ class LoginPresenter: LoginModuleInput {
 
 extension LoginPresenter: LoginViewOutput {
     func loginButtonDidTouched() {
-        guard let email = view.getEmail(),  !email.isEmpty  else {
+        guard let email = view.getEmail(), !email.isEmpty else {
             return // empty email error
         }
-        
-        guard let password = view.getPassword(),  !password.isEmpty  else {
+
+        guard let password = view.getPassword(), !password.isEmpty else {
             return // empty password error
         }
         interactor.signInUser(withUserCredential: UserCredential(email: email, password: password))
     }
-    
+
     func signinButtonDidTouched() {
         router.presentSignupModule()
     }
-    
-    
+
+
 }
 
-extension LoginPresenter :  LoginInteractorOutput {
+extension LoginPresenter: LoginInteractorOutput {
     func didConnected(user: AppUser) {
-       router.presentTaskDashBoardModule()
+        router.presentTaskDashBoardModule()
     }
-    
+
     func didFailSignin(withMessage: String) {
         view.displayError(message: withMessage)
     }
-    
+
 }

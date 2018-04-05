@@ -11,7 +11,7 @@ import Foundation
 protocol AddTaskInteractorOutput: class {
     func saveTaskDidSucced()
     func saveTaskDidFail(message: String)
-    
+
     func deleteTaskDidSucced()
     func deleteTaskDidFail(message: String)
 }

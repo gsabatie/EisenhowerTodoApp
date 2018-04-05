@@ -34,7 +34,7 @@ class TaskDashboardModuleConfigurator {
 
         let firebaseDatasource = TaskDashboardFirebaseManager()
         firebaseDatasource.output = interactor
-        
+
         interactor.dataSource = firebaseDatasource
         presenter.interactor = interactor
         viewController.output = presenter

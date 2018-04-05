@@ -11,5 +11,6 @@ import UIKit
 
 protocol SignupRouterInput {
     func pushToTasksDashboard()
+    func presentLoginModule()
     func present(from viewController: UIViewController)
 }

@@ -10,5 +10,8 @@ import Foundation
 
 protocol SignupInteractorOutput: class {
     func createUserDidSucceed()
-    func createUserDidFailed(message:String)
+    func createUserDidFailed(message: String)
+    func current(userSigned: AppUser)
+    func signoutUserDidSucceed()
+    func signoutUserDidFailed(with message: String)
 }

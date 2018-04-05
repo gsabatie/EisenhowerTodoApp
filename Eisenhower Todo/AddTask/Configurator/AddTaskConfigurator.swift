@@ -21,6 +21,8 @@ class AddTaskModuleConfigurator {
 
         let router = AddTaskRouter()
         let saveTaskService = SaveTaskService()
+        router.taskDashBoardRouter = TaskDashboardRouter()
+        router.viewController = viewController
 
         let presenter = AddTaskPresenter()
         presenter.view = viewController

@@ -36,6 +36,10 @@ class LoginPresenterTest: XCTestCase {
     }
 
     class MockRouter: LoginRouterInput {
+        func presentSignupModule() {
+            
+        }
+        
         func presentSignInModule(fromViewController viewController: UIViewController) {
             
         }

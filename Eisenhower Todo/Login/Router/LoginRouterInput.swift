@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 protocol LoginRouterInput {
-    func presentSignInModule(fromViewController viewController: UIViewController) 
+    func presentSignInModule(fromViewController viewController: UIViewController)
     func presentTaskDashBoardModule()
     func presentSignupModule()
 

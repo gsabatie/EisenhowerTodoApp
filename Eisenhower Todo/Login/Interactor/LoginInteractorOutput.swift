@@ -11,6 +11,6 @@ import Foundation
 
 protocol LoginInteractorOutput: class {
 
-    func didConnected(user : AppUser)
+    func didConnected(user: AppUser)
     func didFailSignin(withMessage: String)
 }

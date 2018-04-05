@@ -9,6 +9,6 @@
 import Foundation
 
 protocol LoginAuthServiceOutput: class {
-    func userAuthSuccess(user:AppUser)
+    func userAuthSuccess(user: AppUser)
     func userAuthFailure(message: String)
 }

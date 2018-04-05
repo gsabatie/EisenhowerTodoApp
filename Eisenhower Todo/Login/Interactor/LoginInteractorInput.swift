@@ -15,6 +15,6 @@ struct UserCredential {
 
 protocol LoginInteractorInput {
 
-    func signInUser(withUserCredential:UserCredential)
+    func signInUser(withUserCredential: UserCredential)
     func requestNewPassword()
 }

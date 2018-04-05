@@ -19,8 +19,7 @@ class LoginModuleConfigurator {
 
     private func configure(viewController: LoginViewController) {
 
-       
-        
+
         let router = LoginRouter()
         router.tasksDashBoardRoute = TaskDashboardRouter()
         router.signupRoute = SignupRouter()
@@ -35,12 +34,12 @@ class LoginModuleConfigurator {
 
         presenter.interactor = interactor
         viewController.output = presenter
-        
+
         let loginService = AuthLoginService()
         loginService.output = interactor
-        
+
         interactor.loginService = loginService
-        
+
     }
 
 }

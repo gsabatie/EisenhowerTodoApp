@@ -7,5 +7,5 @@
 //
 
 protocol SignupModuleInput: class {
-
+    func setEditUserStyle()
 }

@@ -11,13 +11,13 @@ import FirebaseAuth
 
 class AuthLoginService {
     weak var output: LoginAuthServiceOutput!
-    
+
 }
 
-extension AuthLoginService : LoginAuthServiceInput {
-    func userauth(withEmail email:String, andPassword password: String) {
+extension AuthLoginService: LoginAuthServiceInput {
+    func userauth(withEmail email: String, andPassword password: String) {
         Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
-            guard error == nil else{
+            guard error == nil else {
                 self.output.userAuthFailure(message: error!.localizedDescription)
                 return
             }
@@ -27,6 +27,6 @@ extension AuthLoginService : LoginAuthServiceInput {
         }
 
     }
-    
-    
+
+
 }

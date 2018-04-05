@@ -13,7 +13,7 @@ class AddTaskPresenter {
     var router: AddTaskRouterInput!
 
     var isTaskImportant = false
-    var task:Task?
+    var task: Task?
 
     func viewIsReady() {
         if let task = task {
@@ -22,10 +22,11 @@ class AddTaskPresenter {
     }
 }
 
-extension  AddTaskPresenter: AddTaskModuleInput {
+extension AddTaskPresenter: AddTaskModuleInput {
 
 }
-extension  AddTaskPresenter: AddTaskViewOutput {
+
+extension AddTaskPresenter: AddTaskViewOutput {
     func saveButtonDidTouch() {
         if let name = view.getTaskName(), let dueDate = view.getTaskDueDate() {
             var taskID = KNEWTASKID
@@ -36,17 +37,17 @@ extension  AddTaskPresenter: AddTaskViewOutput {
             }
             var newTask = Task(id: taskID, ownerID: ownerID, name: name, contentDescription: "", rolesArray: [Role](), dueDate: dueDate, isImportant: isTaskImportant, isUrgent: false)
             if let description = view.getTaskDescription() {
-                    newTask.contentDescription = description
+                newTask.contentDescription = description
             }
             interactor.save(task: newTask)
         }
     }
 
     func deleteButtonDidTouch() {
-         guard let task = task  else {
-             // output to show can't delete
-             return
-         }
+        guard let task = task else {
+            // output to show can't delete
+            return
+        }
         interactor.delete(task: task)
     }
 
@@ -57,18 +58,20 @@ extension  AddTaskPresenter: AddTaskViewOutput {
 
 extension AddTaskPresenter: AddTaskInteractorOutput {
     func saveTaskDidSucced() {
-        // go to dashboard
+        router.pushTaskDashBoardModule()
     }
 
     func saveTaskDidFail(message: String) {
         // show error
+        view.displayError(with: message)
     }
 
     func deleteTaskDidSucced() {
-        // go to dashboard
+        router.pushTaskDashBoardModule()
     }
 
     func deleteTaskDidFail(message: String) {
-        // show error
+
+        view.displayError(with: message)
     }
 }

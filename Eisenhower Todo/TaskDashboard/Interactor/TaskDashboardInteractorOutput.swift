@@ -11,7 +11,7 @@ import Foundation
 protocol TaskDashboardInteractorOutput: class {
     func onFetchTaskSuccess(_ tasks: [Task])
     func onFetchTaskFailure(message: String)
-    
+
     func onDeleteTaskSuccess()
     func onDeleteTaskFailure(message: String)
 }

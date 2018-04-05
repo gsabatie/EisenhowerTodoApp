@@ -14,8 +14,9 @@ protocol SignupViewOutput {
     */
 
     func viewIsReady()
-    
+
     func createAccountButtonDidTouched()
-    
+
+    func logoutButtonDidTouch()
 
 }

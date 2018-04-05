@@ -16,6 +16,6 @@ protocol LoginViewInput: class {
     func setupInitialState()
     func getPassword() -> String?
     func getEmail() -> String?
-    
+
     func displayError(message: String)
 }

@@ -9,5 +9,5 @@
 import Foundation
 
 protocol LoginAuthServiceInput {
-    func userauth(withEmail email: String, andPassword password:String)
+    func userauth(withEmail email: String, andPassword password: String)
 }

@@ -14,12 +14,13 @@ protocol SignupViewInput: class {
     */
 
     func setupInitialState()
-    
+    func setupInitialState(with user: AppUser)
+
     func getUsername() -> String?
     func getEmail() -> String?
     func getPassword() -> String?
     func getSecondPassword() -> String?
     func getUserDescription() -> String?
 
-    func displaySignupError(message:String)
+    func displaySignupError(message: String)
 }

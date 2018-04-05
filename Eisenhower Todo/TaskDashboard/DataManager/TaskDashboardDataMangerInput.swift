@@ -10,6 +10,6 @@ import Foundation
 
 protocol TaskDashboardDataManagerInput: class {
     func getTasks()
-    
+
     func deleteTask(id: String)
 }
