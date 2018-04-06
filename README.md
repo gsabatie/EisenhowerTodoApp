@@ -1,4 +1,4 @@
-A Todo app, using the Eiseinhower method written with Swift 4 amd The VIPER architecture
+A Todo app, using the Eiseinhower method written with Swift 4 and The VIPER architecture
 
 # Requirement
 
