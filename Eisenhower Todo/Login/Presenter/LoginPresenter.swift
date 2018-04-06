@@ -6,6 +6,8 @@
 //  Copyright © 2018 EiseinhowerAppTeam. All rights reserved.
 //
 
+import GoogleSignIn
+
 class LoginPresenter: LoginModuleInput {
 
 
@@ -19,6 +21,10 @@ class LoginPresenter: LoginModuleInput {
 }
 
 extension LoginPresenter: LoginViewOutput {
+    func googleButtonTouched() {
+        GIDSignIn.sharedInstance().signIn();
+    }
+    
     func loginButtonDidTouched() {
         guard let email = view.getEmail(), !email.isEmpty else {
             return // empty email error

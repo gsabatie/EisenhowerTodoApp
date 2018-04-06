@@ -260,6 +260,14 @@
                                     <action selector="signInButtonDidTouched:" destination="t80-1N-ywE" eventType="touchUpInside" id="7nE-fL-chA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5m-WS-1t3">
+                                <rect key="frame" x="137" y="270" width="119" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="handleGoogleButtonClick:" destination="t80-1N-ywE" eventType="touchUpInside" id="a5Z-RN-68o"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.50196078430000002" green="0.79215686269999996" blue="0.86274509799999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -274,10 +282,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Login" largeTitleDisplayMode="never" id="zEy-xl-cSr"/>
                     <connections>
-                        <outlet property="LoginButton" destination="c66-1H-UX1" id="WSM-cI-XRo"/>
+                        <outlet property="LoginButton" destination="c66-1H-UX1" id="VC7-xh-kou"/>
                         <outlet property="emailTextField" destination="aaB-m5-9Na" id="GmR-Pb-Dkv"/>
+                        <outlet property="googleSignInButton" destination="m5m-WS-1t3" id="AjC-JT-EJH"/>
                         <outlet property="passwordTextField" destination="U2v-Al-LK8" id="ULW-TK-2dh"/>
-                        <outlet property="signInButton" destination="sU1-mZ-SQ0" id="NRR-Aq-alR"/>
+                        <outlet property="signInButton" destination="m5m-WS-1t3" id="5kl-Mv-xe3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MTf-2y-Qps" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -14,6 +14,7 @@ target 'Eisenhower Todo' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'Firebase/Firestore'
+  pod 'GoogleSignIn'
   pod 'Windless', '~> 0.1.5'
   pod 'AppCenter'
   pod 'DateTimePicker'

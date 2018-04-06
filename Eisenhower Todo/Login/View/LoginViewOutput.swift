@@ -16,4 +16,5 @@ protocol LoginViewOutput {
     func viewIsReady()
     func loginButtonDidTouched()
     func signinButtonDidTouched()
+    func googleButtonTouched()
 }

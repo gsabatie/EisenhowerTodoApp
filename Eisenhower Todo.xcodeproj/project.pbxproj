@@ -52,6 +52,7 @@
 		77F44403B9B6A76900F595E0 /* TaskDashboardInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FF3E020AB6CA83663ABC3 /* TaskDashboardInitializer.swift */; };
 		79EED124968726007AE027DF /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0175A28B69C1DAF7EB08516D /* LoginConfigurator.swift */; };
 		80DEACA6F527186E54039A82 /* AddTaskRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15395CF73ABB5379D5C02922 /* AddTaskRouterInput.swift */; };
+		836BA6812076E59B00C5D123 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0D71655204019B500D52A57 /* GoogleService-Info.plist */; };
 		88DB47F7E8B19DEAA1D13078 /* LoginRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39264A4520AD3955387D5F43 /* LoginRouterTests.swift */; };
 		8D14C2519ADEF01B88D388F9 /* LoginInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2EFF987E903B332821461 /* LoginInteractorTests.swift */; };
 		9065EBD756DBA552D9F650FA /* LoginInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5CD0D18B3B82663097F791 /* LoginInteractorOutput.swift */; };
@@ -875,6 +876,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A0F5B42059EBE4000979FC /* GoogleService-Info.plist in Resources */,
+				836BA6822076E59C00C5D123 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -882,6 +884,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836BA6812076E59B00C5D123 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,7 +929,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+<<<<<<< Updated upstream
 				"${BUILT_PRODUCTS_DIR}/DateTimePicker/DateTimePicker.framework",
+=======
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+>>>>>>> Stashed changes
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
@@ -942,7 +949,11 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+<<<<<<< Updated upstream
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTimePicker.framework",
+=======
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+>>>>>>> Stashed changes
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
@@ -1040,9 +1051,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

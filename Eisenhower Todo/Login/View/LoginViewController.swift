@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import Firebase
+import GoogleSignIn
 
+<<<<<<< Updated upstream
 class LoginViewController: UIViewController {
+=======
+class LoginViewController: UIViewController, GIDSignInUIDelegate  {
+>>>>>>> Stashed changes
 
     var output: LoginViewOutput!
 
@@ -17,11 +23,20 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var LoginButton: UIButton!
     @IBOutlet weak var signInButton: UIButton!
+<<<<<<< Updated upstream
+=======
+    
+    @IBAction func handleGoogleButtonClick(_ sender: Any) {
+        GIDSignIn.sharedInstance().signIn()
+    }
+>>>>>>> Stashed changes
 
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewIsReady()
+        
+        GIDSignIn.sharedInstance().uiDelegate = self
     }
 
 
@@ -35,6 +50,10 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginButtonDidTouched(_ sender: UIButton) {
         output.loginButtonDidTouched()
+    }
+    
+    @IBAction func googleSignInButtonDidTouched(_ sender: Any) {
+        GIDSignIn.sharedInstance().signIn();
     }
 }
 
