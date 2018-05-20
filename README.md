@@ -1,4 +1,5 @@
-A Todo app, using the Eiseinhower method written with Swift 4 and The VIPER architecture
+An example Todo app, using the Eiseinhower method written with Swift 4 and The VIPER architecture. You can use this example to understand how to use  generamba and how to use modules created with the swifty_viper template.
+Unit test are writen with Quick and NImble, you can see how to write BDD test and mock the different component of a VIPER module
 
 # Requirement
 
