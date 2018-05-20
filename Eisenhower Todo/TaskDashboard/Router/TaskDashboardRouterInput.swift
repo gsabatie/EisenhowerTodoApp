@@ -14,6 +14,8 @@ protocol TaskDashboardRouterInput {
 
     func presentAddTaskModule()
 
+    func presentEditTaskModule(with task:Task)
+
     func presentUserProfilModule()
 
     func popToTaskDashBoardModule(fromViewController viewController: UIViewController)

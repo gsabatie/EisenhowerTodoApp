@@ -5,13 +5,14 @@
 //  Created by sabati_g on 25/02/2018.
 //  Copyright © 2018 EiseinhowerAppTeam. All rights reserved.
 //
-
+import Foundation
 class TaskDashboardPresenter {
 
 
     weak var view: TaskDashboardViewInput!
     var interactor: TaskDashboardInteractorInput!
     var router: TaskDashboardRouterInput!
+    var taskList = [Task]()
 
 
 }
@@ -29,8 +30,13 @@ extension TaskDashboardPresenter: TaskDashboardViewOutput {
         router.presentAddTaskModule()
     }
 
-    func onCollectionViewItemSwiped() {
 
+    func onCollectionViewItemSwiped(at indexPath: IndexPath) {
+
+    }
+
+    func onCollectionViewItemSelected(at indexPath: IndexPath) {
+        router.presentEditTaskModule(with: taskList[indexPath.row])
     }
 
     func onCollectionViewItemSelected() {
@@ -46,6 +52,7 @@ extension TaskDashboardPresenter: TaskDashboardViewOutput {
 extension TaskDashboardPresenter: TaskDashboardInteractorOutput {
     func onFetchTaskSuccess(_ tasks: [Task]) {
         view.endDisplayLoading()
+        taskList = tasks
         view.display(task: tasks)
 
     }

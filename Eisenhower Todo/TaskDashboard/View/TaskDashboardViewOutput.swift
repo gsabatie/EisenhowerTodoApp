@@ -6,6 +6,8 @@
 //  Copyright © 2018 EiseinhowerAppTeam. All rights reserved.
 //
 
+import Foundation
+
 protocol TaskDashboardViewOutput {
 
     /**
@@ -19,7 +21,7 @@ protocol TaskDashboardViewOutput {
     
     func onProfileButtonTouched()
 
-    func onCollectionViewItemSwiped()
+    func onCollectionViewItemSwiped(at indexPath:IndexPath)
     
-    func onCollectionViewItemSelected()
+    func onCollectionViewItemSelected(at indexPath:IndexPath)
 }

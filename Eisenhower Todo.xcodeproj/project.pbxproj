@@ -759,7 +759,6 @@
 				C0D716212040188B00D52A57 /* Frameworks */,
 				C0D716222040188B00D52A57 /* Resources */,
 				5E8289468290D496B78A4A57 /* [CP] Embed Pods Frameworks */,
-				AD8BDACCDC4C4F5AF3B75BF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -779,7 +778,6 @@
 				C0D716352040188B00D52A57 /* Frameworks */,
 				C0D716362040188B00D52A57 /* Resources */,
 				FABC98AF69BB938D2EC94B48 /* [CP] Embed Pods Frameworks */,
-				101243F742611C950AAED192 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -800,7 +798,6 @@
 				C0D716402040188B00D52A57 /* Frameworks */,
 				C0D716412040188B00D52A57 /* Resources */,
 				908798C642AE0566FE927973 /* [CP] Embed Pods Frameworks */,
-				4048A82799B81DFC117D9561 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -888,36 +885,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		101243F742611C950AAED192 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower TodoTests/Pods-Eisenhower TodoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4048A82799B81DFC117D9561 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5E8289468290D496B78A4A57 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1032,21 +999,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower TodoUITests/Pods-Eisenhower TodoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AD8BDACCDC4C4F5AF3B75BF8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eisenhower Todo/Pods-Eisenhower Todo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FABC98AF69BB938D2EC94B48 /* [CP] Embed Pods Frameworks */ = {

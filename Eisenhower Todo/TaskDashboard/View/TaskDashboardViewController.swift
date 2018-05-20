@@ -87,7 +87,9 @@ class TaskDashboardViewController: UIViewController, TaskDashboardViewInput {
 
 
 extension TaskDashboardViewController: UICollectionViewDelegate {
-
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        output.onCollectionViewItemSelected(at: indexPath)
+    }
 }
 
 extension TaskDashboardViewController: UICollectionViewDataSource {
