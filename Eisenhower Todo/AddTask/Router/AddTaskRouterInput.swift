@@ -11,5 +11,6 @@ import UIKit
 
 protocol AddTaskRouterInput {
     func presentAddTaskModule(fromViewController viewController: UIViewController)
+    func presentAddTaskModule(with task: Task, fromViewController viewController: UIViewController)
     func pushTaskDashBoardModule()
 }

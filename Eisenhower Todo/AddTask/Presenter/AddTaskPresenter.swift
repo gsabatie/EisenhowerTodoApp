@@ -23,23 +23,29 @@ class AddTaskPresenter {
 }
 
 extension AddTaskPresenter: AddTaskModuleInput {
-
+    func present(with task: Task) {
+        self.task = task
+    }
 }
 
 extension AddTaskPresenter: AddTaskViewOutput {
     func saveButtonDidTouch() {
-        if let name = view.getTaskName(), let dueDate = view.getTaskDueDate() {
-            var taskID = KNEWTASKID
-            var ownerID = KNEWTASKID
-            if let task = task {
-                taskID = task.id
-                ownerID = task.ownerID
+        if let task = self.task {
+            interactor.save(task: task)
+        } else {
+            if let name = view.getTaskName(), let dueDate = view.getTaskDueDate() {
+                var taskID = KNEWTASKID
+                var ownerID = KNEWTASKID
+                if let task = task {
+                    taskID = task.id
+                    ownerID = task.ownerID
+                }
+                var newTask = Task(id: taskID, ownerID: ownerID, name: name, contentDescription: "", rolesArray: [Role](), dueDate: dueDate, isImportant: isTaskImportant, isUrgent: false)
+                if let description = view.getTaskDescription() {
+                    newTask.contentDescription = description
+                }
+                interactor.save(task: newTask)
             }
-            var newTask = Task(id: taskID, ownerID: ownerID, name: name, contentDescription: "", rolesArray: [Role](), dueDate: dueDate, isImportant: isTaskImportant, isUrgent: false)
-            if let description = view.getTaskDescription() {
-                newTask.contentDescription = description
-            }
-            interactor.save(task: newTask)
         }
     }
 
@@ -62,7 +68,6 @@ extension AddTaskPresenter: AddTaskInteractorOutput {
     }
 
     func saveTaskDidFail(message: String) {
-        // show error
         view.displayError(with: message)
     }
 
@@ -71,7 +76,6 @@ extension AddTaskPresenter: AddTaskInteractorOutput {
     }
 
     func deleteTaskDidFail(message: String) {
-
         view.displayError(with: message)
     }
 }

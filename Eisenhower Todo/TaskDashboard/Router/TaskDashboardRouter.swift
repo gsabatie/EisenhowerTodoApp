@@ -46,6 +46,10 @@ extension TaskDashboardRouter: TaskDashboardRouterInput {
         addTaskRouter.presentAddTaskModule(fromViewController: viewController)
     }
 
+    func presentEditTaskModule(with task:Task) {
+        addTaskRouter.presentAddTaskModule(with: task, fromViewController: viewController)
+    }
+
     func presentUserProfilModule() {
         profileTaskRouter.present(from: viewController)
     }

@@ -8,4 +8,5 @@
 
 protocol AddTaskModuleInput: class {
 
+    func present(with task:Task)
 }
